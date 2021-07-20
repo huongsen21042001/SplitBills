@@ -1,0 +1,354 @@
+                /* ===============RESPONSIVE WEMSITE================ */
+                
+                @media all and (max-width:800px) {
+                    body {
+                        width: 100%;
+                    }
+                    /* ==============================HEADER PAGE==================== */
+                    .nav-header {
+                        max-width: 100%;
+                        height: auto;
+                    }
+                    .nav-header-menu {
+                        max-width: 100%;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                    .nav-menu {
+                        max-width: 50%;
+                        margin-top: 25px;
+                        margin-left: 10px;
+                        padding: 0px 0px 5px 0px;
+                        height: auto;
+                    }
+                    .nav-menu-split a {
+                        width: 50%;
+                        margin-right: 500px;
+                    }
+                    .nav-menu-login a {
+                        margin-top: 25px;
+                        max-width: 50%;
+                        margin-left: 110px;
+                        height: auto;
+                    }
+                    .line {
+                        margin-top: 25px;
+                    }
+                    .nav-menu-signup {
+                        margin: auto;
+                        margin-right: 10px;
+                    }
+                    /* ==============================HERO PAGE==================== */
+                    .main-section-transaction {
+                        max-width: 100%;
+                        margin-top: 50px;
+                    }
+                    .transaction {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+                    .main-section-transaction {
+                        width: 100%;
+                    }
+                    .transaction-text {
+                        width: 80%;
+                        margin-top: 35px;
+                    }
+                    .transaction-text h1 {
+                        width: 100%;
+                        margin-top: 35px;
+                    }
+                    .transaction-text h4 {
+                        width: 100%;
+                    }
+                    /* ================================SPONSOR PAGE ====================== */
+                    .main-section-sponsor-section {
+                        width: 100%;
+                        height: auto;
+                    }
+                    .main-group-partner img {
+                        max-width: 100%;
+                        flex-wrap: wrap;
+                        margin: auto;
+                        padding: auto;
+                    }
+                    .group-partner1 {
+                        width: 30%;
+                        margin-left: 10%;
+                    }
+                    .group-partner2 {
+                        width: 30%;
+                        margin-left: 0px;
+                    }
+                    .group-partner3 {
+                        width: 30%;
+                        margin-left: 0px;
+                    }
+                    .group-partner4 {
+                        width: 30%;
+                        margin-left: 0px;
+                    }
+                    .group-partner3 img {
+                        margin-left: 10px;
+                    }
+                    .group-partner4 img {
+                        margin-right: 400px;
+                    }
+                    /* =======================MAIN SECTION 2 ======================== */
+                    .main-section2 {
+                        width: 100%;
+                    }
+                    .main-section2-sociali {
+                        width: 100%;
+                    }
+                    .main-section2-become-title h2 {
+                        width: 90%;
+                        margin-left: 80px;
+                        height: auto;
+                    }
+                    .main-section2-become-content {
+                        width: 100%;
+                    }
+                    .main-section2-become-content p {
+                        width: 50%;
+                        margin: auto;
+                    }
+                    .sociali-group {
+                        width: 40%;
+                        margin-top: 32px;
+                    }
+                    /* =========================MAIN SECTION 3======================== */
+                    .main-section3 {
+                        width: 100%;
+                        margin: auto;
+                        display: flex;
+                    }
+                    .main-section3-content {
+                        width: 100%;
+                        display: block;
+                        height: auto;
+                    }
+                    .main-section3-content-title {
+                        width: 100%;
+                        margin-top: 300px;
+                    }
+                    .main-section3-content-title p {
+                        width: 80%;
+                        margin: auto;
+                    }
+                    .main-section3-content-multi {
+                        width: 100%;
+                        margin-top: 64px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        flex-direction: column;
+                    }
+                    .main-section3-multi-img {
+                        margin-top: 5px;
+                    }
+                    .main-section3-multi-img img {
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .multi-text1 {
+                        width: 100%;
+                        margin-top: 0px;
+                    }
+                    .multi-text2 {
+                        width: 100%;
+                        margin-top: 0px;
+                    }
+                    .main-section3-content-safety {
+                        width: 100%;
+                        /* display: block; */
+                        width: 100%;
+                        margin-top: 64px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        flex-direction: column;
+                    }
+                    .safety-text1 {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                        margin-top: 5px;
+                    }
+                    .safety-text2 {
+                        width: 100%;
+                        margin-top: 0px;
+                        height: auto;
+                        display: block;
+                    }
+                    .main-section3-safety-img {
+                        margin-top: 5px;
+                    }
+                    .main-section3-safety-img img {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .main-section3-content-cashless {
+                        width: 100%;
+                        margin-top: 64px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        flex-direction: column;
+                    }
+                    .main-section3-cashless-img {
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .main-section3-safety-text {
+                        margin-top: 0px;
+                    }
+                    .cashless-text1 {
+                        width: 100%;
+                        margin-top: 0px;
+                    }
+                    .cashless-text2 {
+                        max-width: 100%;
+                        margin-top: 5px;
+                    }
+                    /* =======================TOP FEATURE================= */
+                    .main-section4 {
+                        max-width: 100%;
+                    }
+                    .main-section4-content-detail {
+                        width: 100%;
+                        height: auto;
+                    }
+                    .main-section-content {
+                        max-width: 60%;
+                        height: auto;
+                    }
+                    .main-section4-title {
+                        max-width: 100%;
+                        height: auto;
+                        margin: auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        /* margin: 0px 0px 0px 0px; */
+                    }
+                    .section-promo {
+                        max-width: 100%;
+                        height: auto;
+                        display: block;
+                        margin: auto;
+                        justify-content: center;
+                    }
+                    .section4-promo1 {
+                        display: block;
+                        margin: auto;
+                        justify-content: center;
+                    }
+                    .section4-promo1-text {
+                        display: block;
+                        margin: auto;
+                        justify-content: center;
+                        margin-top: 50px;
+                    }
+                    .section4-promo2 {
+                        display: block;
+                        margin: auto;
+                        justify-content: center;
+                    }
+                    .section4-promo2-text {
+                        display: block;
+                        margin-top: 28px;
+                        justify-content: center;
+                    }
+                    .section4-promo3 {
+                        display: block;
+                        margin: auto;
+                        justify-content: center;
+                    }
+                    .section4-promo3-text {
+                        display: block;
+                        margin-top: 28px;
+                        justify-content: center;
+                    }
+                    /* ======================FOOTER PAGE====================== */
+                    .footer-section {
+                        width: 100%;
+                        margin: auto;
+                        height: auto;
+                    }
+                    .footer-section-rectangle-top {
+                        max-width: 100%;
+                        height: auto;
+                        margin-top: 1060px;
+                        display: block;
+                        justify-content: center;
+                    }
+                    .footer-section-group1 {
+                        width: 80%;
+                        margin: auto;
+                        padding: auto;
+                        flex-direction: row;
+                        /* display: inline-block; */
+                    }
+                    .section-group1-content2 {
+                        margin-left: 45px;
+                    }
+                    .section-group1-content3 {
+                        margin-left: 45px;
+                    }
+                    .goup1-content3-subscribe p {
+                        margin-left: 1000px;
+                        margin-top: 10px;
+                    }
+                    .group1-content3-submit {
+                        width: 50%;
+                        margin-left: 30px;
+                    }
+                    .section-group1-content4 {
+                        margin: auto;
+                    }
+                    .group1-content4-title p {
+                        width: 70%;
+                        margin-left: -20px;
+                    }
+                    .group1-content4-googlepay img {
+                        width: 80%;
+                        margin: auto;
+                    }
+                    .group1-content4-appstore img {
+                        margin-top: 0px;
+                        width: 80%;
+                        margin: auto;
+                    }
+                    .footer-section-rectangle-bottom {
+                        width: 100%;
+                        /* height: auto; */
+                    }
+                    .section-rectangle-bottom {
+                        width: 100%;
+                        /* height: auto; */
+                    }
+                    .footer-section-group2 {
+                        display: inline-flex;
+                        /* flex-direction: row; */
+                        /* display: block; */
+                        height: auto;
+                        justify-content: center;
+                        width: 100%;
+                    }
+                    .link-group {
+                        display: flex;
+                        height: auto;
+                        justify-content: center;
+                        margin-left: 250px;
+                        width: 10%;
+                    }
+                    .footer-section-splitbills p {
+                        width: 100%;
+                        height: auto;
+                        color: aliceblue;
+                    }
+                }

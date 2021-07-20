@@ -1,0 +1,1538 @@
+
+        <main>
+            <section>
+                <!-- HERO PAGE -->
+                <!-- <div class="transaction">
+                    <div class="transaction"></div>
+                    <div class="phone">
+                        <img src="./assets/images/Group 1091.svg">
+                    </div>
+
+                    <div class="transaction-text">
+                        <h1>Transactions are increasingly easy using SplitBills</h1>
+                        <h4>Easy to use, Simple to use & Safety to use </h4>
+
+                        <div class="app">
+                            <div class="googlepay">
+                                <img src="./assets/images/Group 1095.svg">
+                            </div>
+
+                            <div class="appstore">
+                                <img src="./assets/images/Group 1096.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- END HERO PAGE -->
+
+                <!-- START SECTION -->
+                <div class="main-sponsor-section">
+                    <div class="main-group-partner">
+                        <img src="./assets/images/digit-mv1gljkim5mp0kzt975saw4lf7g6xkqjt1nm7wtk9o 1.svg">
+                        <img src="./assets/images/madrin-mv1gljkim5mp0kzt975saw4lf7g6xkqjt1nm7wtk9o 1.svg">
+                        <img src="./assets/images/x 1.svg">
+                        <img src="./assets/images/zing-mv1gux0krogmsldnir0uo0z2oj8yowy6rfuxi8x87w 1.svg">
+
+                    </div>
+                </div>
+
+                <!-- END SPONSOR SECTION -->
+
+                <!-- START SECTION2 -->
+
+                <div class="main-section2-sociali">
+
+                    <div class="main-section2-become-title">
+                        <h2> Socializing becomes more<br> fun with SplitBills</h2>
+                    </div>
+
+                    <div class="main-section2-become-content">
+                        <h4>
+                            Want to pay for anything is as easy as through the touch of a finger. Through SpliBills, you
+                            can carry out any transaction practically from bill payments, barcode scan transactions, to
+                            e-commerce. enjoy a payment method that is faster, practical and safe.
+                        </h4>
+                    </div>
+
+                    <div class="sociali-group">
+                        <div class="sociali-group-img">
+                            <img src="./assets/images/Group 1101.svg">
+                        </div>
+
+                        <div class="sociali-group-img">
+                            <img src="./assets/images/Group 1102.svg">
+                        </div>
+
+                        <div class="sociali-group-img">
+                            <img src="./assets/images/Group 1103.svg">
+                        </div>
+
+                        <div class="sociali-group-img">
+                            <img src="./assets/images/Group 1104.svg">
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <!-- END SECTION2 -->
+
+                <!-- START SECTION3  -->
+
+                <div class="main-section3">
+                    <div class="main-section3-title">
+                        <p>Amazing Features from us </p>
+                    </div>
+
+                    <div class="main-section3-multi">
+                        <div class="main-section3-multi-text">
+                            <div class="multi-text1">Multi-Transaction</div>
+                            <div class="multi-text2">Easy use with multi transaction features</div>
+                        </div>
+                        <!-- <div class="main-section3-multi-img">
+                            <img src="./assets/images/Xn5FbEM9564.svg">
+                        </div>   -->
+
+                    </div>
+
+                     <div class="main-section3-safety">
+                        <div class="main-section3-safety-text">
+                            <div class="safety-text1">Safety System </div>
+                            <div class="safety-text2">Easy use with safety system features</div>
+                        </div>
+
+                        <div class="main-section3-safety-img">
+                            <img src="../assets/images/Xn5FbEM9565.svg">
+                        </div>
+
+                    </div> 
+
+                  <div class="main-section3-cashless">
+                        <div class="main-section3-cashless-text">
+                            <div class="cashless-text1">Cashless System</div>
+                            <div class="cashless-text2">Say goodbay to Cash Transactions</div>
+                        </div>
+
+                        <div class="main-section3-cashless-img">
+                            <img src="../assets/images/Xn5FbEM9566.svg">
+                        </div>
+
+                    </div>  
+
+                <!-- END SECTION3 -->
+
+
+                <!-- START SECTION4 -->
+
+                <!-- <div class="main-section4">
+                    <p class="main-section4-title">Promo</p>
+                    <div class="section4-promo1">
+                        <div class="section4-promo1-text">Try to be Cashless with SplitBills</div>
+                        <div class="section4-promo1-img"><img src="../assets/images/pbgYcq3_Zx0.svg"></div>
+                    </div>
+
+                    <div class="section4-promo2">
+                        <div class="section4-promo2-text">SplitBills Can Be FUN!</div>
+                        <div class="section4-promo2-img"><img src="../assets/images/ILpCscZCeR8.svg"></div>
+                    </div>
+
+                    <div class="section4-promo3">
+                        <div class="section4-promo3-text">Modern Payment with SplitBills</div>
+                        <div class="section4-promo3-img"><img src="../assets/images/qydUw3DanPU.svg"></div>
+                    </div>
+
+                </div> -->
+                <!-- END SECTION4 -->
+
+            </section>
+
+        </main>
+        <!-- END MAIN -->
+
+
+
+        <!-- START FOOTER -->
+        <!-- <footer>
+            <div class="footer-section"> -->
+        <!-- START FOOTER TOP -->
+        <!-- <div class="footer-section-rectangle-top">
+
+                    <div class="footer-section-group1">
+                        <div class="section-group1-content1">
+                            <div class="group1-content1-text1">
+                                <p>Learn more</p>
+                            </div>
+
+                            <div class="group1-content1-text2">
+                                <p>How it work</p>
+                            </div>
+
+                            <div class="group1-content1-text3">
+                                <p>Who we are</p>
+                            </div>
+
+                            <div class="group1-content1-text4">
+                                <p>Careers</p>
+                            </div>
+
+                            <div class="group1-content1-text5">
+                                <p>Blog</p>
+                            </div>
+
+                            <div class="group1-content1-text6">
+                                <p>FAQs</p>
+                            </div>
+
+                        </div>
+
+                        <div class="section-group1-content2">
+                            <div class="group1-content2-text1">
+                                <p>Social</p>
+                            </div>
+
+                            <div class="group1-content2-text2">
+                                <p>Facebook</p>
+                            </div>
+
+                            <div class="group1-content2-text3">
+                                <p>Istagram</p>
+                            </div>
+
+                            <div class="group1-content2-text4">
+                                <p>Twitter</p>
+                            </div>
+
+                            <div class="group1-content2-text5">
+                                <p>Pinterest</p>
+                            </div>
+
+                            <div class="group1-content2-text6">
+                                <p>Linkedin</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="section-group1-content3">
+
+                            <div class="group1-content3-subscribe">
+                                <p>Subscribe</p>
+
+                            </div>
+
+                            <div class="group1-content3-submit">
+
+                                <div class="content3-submit-click">
+
+                                    <div class="submit-click-rectangle">
+                                        <div class="submit-click-line">
+                                            <img src="../assets/images/Line.svg">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="content3-submit-input">
+                                    <div class="content3-submit-email">
+                                        <p>Email Adress</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="section-group1-content4">
+
+                            <div class="group1-content4-title">
+                                <p>Downloads</p>
+
+                            </div><br>
+
+                            <div class="group1-content4-googlepay">
+                                <img src="../assets/images/Group 1095.svg">
+                            </div>
+
+                            <div class="group1-content4-appstore">
+                                <img src="../assets/images/Group 1096.svg">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div> -->
+        <!-- END FOOTER TOP -->
+
+
+        <!-- START FOOTER BOTTOM --> 
+        <div class="footer-section-rectangle-bottom">
+
+            <div class="footer-section-group2">
+                <div class="section-group2-term">
+                    <p>Term of use</p>
+                </div>
+
+                <div class="section-group2-privacy">
+                    <p>Privacy Police</p>
+                </div>
+
+                <div class="section-group2-cardholder">
+                    <p>Cardholder Agreement </p>
+                </div>
+
+            </div>
+
+            <div class="footer-section-splitbills">
+                <p>© 2020 SplitBills Inc.</p>
+            </div>
+
+        </div> -->
+
+        <!-- END FOOTER BOTTOM -->
+
+
+        <!-- </div> -->
+
+        <!-- </footer> -->
+        <!-- END FOOTER -->
+
+
+
+        .transaction {
+    width: 100%;
+    height: 600px;
+    left: -1px;
+    margin-top: 0px;
+    background: linear-gradient(259.16deg, #13A0FE 0%, #0E9AF7 78.07%, #129EFC 78.07%);
+    display: inline-flex;
+}
+
+.phone {
+    width: 268px;
+    height: 498px;
+    margin-left: 165px;
+    padding-top: 34px;
+}
+
+.transaction-text {
+    width: 720px;
+    height: 303px;
+    margin-left: 82.5px;
+    margin-top: 129px;
+}
+
+.transaction-text h1 {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-top: 0px;
+
+}
+
+.transaction-text span {
+    background-color: #B0E0E6;
+}
+
+ .transaction-text h4{
+    width: 579px;   
+    height: 27px;
+    left: 507px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 40px 0px 0px 0px;
+} 
+
+.app {
+    position: absolute;
+    width: 390px;
+    height: 72px;
+    top: 486.50px;
+    display: inline-flex !important;
+}
+
+.googlepay img {
+  margin: 0px 40px 0px 0px;
+} 
+.appstore img{
+        width: 172px;
+        height: 72px;;
+}
+
+
+.main-sponsor-section {
+    width: 100%;
+    height: 178px;
+    left: 0px;
+    background: rgba(48, 48, 255, 0.2);
+}
+.main-group-partner{
+    margin-left: 263px;
+    margin-right: 262.13px;
+    display: flex;
+    justify-content: space-around;
+    padding-top:8px;
+}
+
+.group-partner img {
+    width: 154.72px;
+    height: 113.94px;
+    top: 8px;
+    margin-right: 263px;
+    margin-left: 220px;
+}  
+
+/* =========================MAIN SECTION2 SOCIALIZING ================================ */
+
+.main-section2-sociali {
+    width: 972px;
+    height: 477px;
+    margin-left: 234px;
+    margin-right: 234px;
+    margin-top: 60px;
+}
+
+.main-section2-become {
+    width: 972px;
+    height: 477px;
+    left: 234px;
+    top: 979px;
+    align-items: center;
+    text-align: center;
+}   
+
+.main-section2-become-title h2 {
+    width: 658px;
+    height: 137px;
+    margin-left: 157px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;  
+    color: #161616;
+    text-align: center;
+
+
+}
+
+.main-section2-become-content h4 {
+    position: absolute;
+    width: 815px;       
+    height: 173px;
+    top:1117px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    opacity: 0.6;
+    text-align: center;
+    /* padding-left:100px; */
+}
+
+.main-section2-sociali-group {
+    top: 450px;
+    left: 285.0px;
+}
+
+.sociali-group {
+    width: 436.06px;
+    height: 105px;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-left: 268px;
+    margin-top: 200px;  
+    padding-right:100px;
+}
+
+.sociali-group img {
+   margin-left: 10px;
+   padding-right: 10px;
+}  
+
+/* ====================================== MAIN SECTION3 =========================== */
+
+.main-section3 {
+    width: 100%;
+    height: 1618px;
+    left: 100px;
+    margin-top:80.53px;
+    background-color: #FE808C;
+}
+
+.main-section3-title p {
+    width: 658px;
+    height: 71px;
+    top: 1501px;    
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #161616;
+    margin-left: 391px;
+    margin-right:391px;
+}
+
+.main-section3-multi {
+    width: 1240px;
+    height: 461px;
+    background: rgba(18, 158, 252, 0.1);
+    margin-top:64px;
+    margin-left: 100px;
+    margin-right:100px; 
+    padding-top: 176px;
+}
+
+.main-section3-multi-text {
+    width: 553px;
+    height: 110px;
+    margin-left: 50px;
+    display: flex;
+}
+
+ .multi-text1 {
+    width: 426px;
+    height: 60px;
+    left: 50px;
+    top: 176px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.multi-text2 {
+    width: 553px;
+    height: 40px;
+    left: 50px;
+    margin-top: 10px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    color: #161616;
+    opacity: 0.6;
+} 
+
+.main-section3-multi-img{
+    width: 542px;
+    height: 361px;
+    margin-left:45px;   
+    background-color: bisque;
+}  
+
+ /* .main-section3-multi-img img{
+    width: 542px;   
+    height: 361px;
+    margin-left:45px; 
+    border-radius: 10px;
+}  */
+.main-section3-safety {
+    position: absolute;
+    width: 1240px;
+    height: 461px;
+    left: 100px;
+    background: rgba(18, 158, 252, 0.1);
+    top: 756.52px;
+}
+
+.main-section3-safety-text {
+    position: absolute;
+    width: 510px;
+    height: 110px;
+    left: 637px;
+    top: 0px;
+}
+
+.safety-text1 {
+    position: absolute;
+    width: 349px;
+    height: 60px;
+    left: 5px;
+    top: 176px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #161616;
+}
+
+.safety-text2 {
+    position: absolute;
+    width: 510px;
+    height: 40px;
+    left: 45px;
+    top: 246px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #161616;
+    opacity: 0.6;
+}
+
+.main-section3-safety-img img {
+    position: absolute;
+    width: 542px;
+    height: 361px;
+    left: 50px;
+    top: 50px;
+    border-radius: 10px;
+}
+
+.main-section3-cashless {
+    position: absolute;
+    width: 1240px;
+    height: 461px;
+    left: 100px;
+    background: rgba(18, 158, 252, 0.1);
+    top: 1267.53px;
+}
+
+.main-section3-cashless-text {
+    position: absolute;
+    width: 465px;
+    height: 110px;
+    left: 50px;
+    top: 0px;
+}
+
+.cashless-text1 {
+    position: absolute;
+    width: 403px;
+    height: 60px;
+    left: 0px;
+    top: 176px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #161616;
+}
+
+.cashless-text2 {
+    position: absolute;
+    width: 465px;
+    height: 40px;
+    left: 50px;
+    top: 246px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    color: #161616;
+    opacity: 0.6;
+}
+
+.main-section3-cashless-img img {
+    position: absolute;
+    width: 542px;
+    height: 361px;
+    left: 50px;
+    top: 50px;
+    border-radius: 10px;
+    position: absolute;
+    width: 542px;
+    height: 361px;
+    left: 648px;
+    top: 50px;
+    border-radius: 10px;
+}
+
+/*========================= MAIN SECTION4 ============================ */
+
+.main-section4 {
+    position: absolute;
+    width: 100%;
+    height: 546px;
+    left: 100px;
+    top: 3241px;
+}
+
+section {
+    width: 100%;
+}
+
+.main-section4-title {
+    position: absolute;
+    width: 162px;
+    height: 60px;
+    left: 639px;
+    top: 62px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #161616;
+}
+
+.section4-promo1 {
+    position: absolute;
+    width: 345px;
+    height: 436px;
+    left: 170px;
+    top: 220px;
+    margin-right: 28px;
+    background: #129EFC;
+}
+
+.section4-promo1-text {
+    position: absolute;
+    width: 173px;
+    height: 246px;
+    left: 0px;
+    top: 190px;
+    position: absolute;
+    width: 256px;
+    height: 114px;
+    left: 45px;
+    top: 76px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section4-promo1-img img {
+    position: absolute;
+    width: 173px;
+    height: 246px;
+    left: 0px;
+    top: 190px;
+}
+
+.section4-promo2 {
+    position: absolute;
+    width: 345px;
+    height: 436px;
+    left: 544.5px;
+    top: 220px;
+    margin-right: 28px;
+    background: #FE808C;
+}
+
+.section4-promo2-text {
+    position: absolute;
+    width: 173px;
+    height: 246px;
+    left: 0px;
+    top: 190px;
+    position: absolute;
+    width: 256px;
+    height: 114px;
+    left: 45px;
+    top: 76px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section4-promo2-img img {
+    position: absolute;
+    width: 278px;
+    height: 239px;
+    left: 26px;
+    top: 198.0px;
+}
+
+.section4-promo3 {
+    position: absolute;
+    width: 345px;
+    height: 436px;
+    left: 919.5px;
+    top: 220px;
+    background-color: #65D58D;
+}
+
+.section4-promo3-text {
+    position: absolute;
+    width: 173px;
+    height: 246px;
+    left: 0px;
+    top: 190px;
+    position: absolute;
+    width: 256px;
+    height: 114px;
+    left: 45px;
+    top: 76px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section4-promo3-img img {
+    position: absolute;
+    width: 301px;
+    height: 220px;
+    left: 30.0px;
+    top: 200px;
+}
+
+/* =============================FOOTER SECTION======================= */
+
+.footer-section-rectangle-top {
+    position: absolute;
+    width: 100%;
+    height: 412px;
+    left: 0px;
+    top: 3897.0px;
+    margin-top: 137px;
+    background: #13A0FE;
+}
+
+.footer-section-group1 {
+    position: absolute;
+    width: 1124px;
+    height: 250px;
+    left: 70px;
+    top: 104px;
+}
+
+.section-group1-content1 {
+    position: absolute;
+    width: 1124px;
+    height: 250px;
+    left: 158px;
+    top: 0px;
+}
+
+.group1-content1-text1 p {
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 20px;
+    top: -24px;
+    bottom: 278px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content1-text2 p {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 30px;
+    top: 40px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content1-text3 p {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 30px;
+    top: 80px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content1-text4 p {
+    position: absolute;
+    width: 76px;
+    height: 30px;
+    left: 30px;
+    top: 120px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content1-text5 p {
+    position: absolute;
+    width: 76px;
+    height: 30px;
+    left: 30px;
+    top: 160px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content1-text6 p {
+    position: absolute;
+    width: 76px;
+    height: 30px;
+    left: 30px;
+    top: 200px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.section-group1-content2 {
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    left: 423px;
+    top: 0px;
+}
+
+.group1-content2-text1 p {
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    left: 22.5px;
+    top: -24px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content2-text2 p {
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    left: 25px;
+    top: 40px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content2-text3 p {
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    left: 22.5px;
+    top: 80px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content2-text4 p {
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    left: 22.5px;
+    top: 120px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content2-text5 p {
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    left: 22.5px;
+    top: 160px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content2-text6 p {
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    left: 22.5px;
+    top: 200px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.section-group1-content3 {
+    position: absolute;
+    width: 316px;
+    height: 110px;
+    left: 500px;
+    top: 0px;
+}
+
+.group1-content3-subscribe p {
+    position: absolute;
+    width: 121px;
+    height: 22.1px;
+    left: 175px;
+    top: -24px;
+    ;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content3-submit {
+    position: absolute;
+    width: 316px;
+    height: 50px;
+    left: 0px;
+    top: 50px;
+}
+
+.content3-submit-email p {
+    position: absolute;
+    width: 115px;
+    height: 30px;
+    left: 20px;
+    top: -6px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: black;
+    opacity: 0.6;
+}
+
+.content3-submit-input {
+    position: absolute;
+    width: 245px;
+    height: 50px;
+    left: 158px;
+    top: 2px;
+    background: #FFFFFF;
+}
+
+.content3-submit-click {
+    position: absolute;
+    height: 40px;
+    left: 405px;
+    top: 2px;
+    background-color: blanchedalmond;
+}
+
+.submit-click-rectangle {
+    position: absolute;
+    width: 71px;
+    height: 50px;
+    left: -2px;
+    top: 0px;
+    background: #0070BB;
+}
+
+.submit-click-line img {
+    position: absolute;
+    left: 25px;
+    top: 17px;
+}
+
+.section-group1-content4 {
+    position: absolute;
+    width: 180px;
+    height: 234px;
+    left: 1080.10px;
+    top: 0px;
+}
+
+.group1-content4-title p {
+    position: absolute;
+    width: 136px;
+    height: 30px;
+    left: 41px;
+    top: -24px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.group1-content4-googlepay img {
+    position: absolute;
+    width: 180px;
+    height: 72px;
+    left: 24px;
+    top: 60px;
+}
+
+.group1-content4-appstore img {
+    position: absolute;
+    width: 180px;
+    height: 72px;
+    left: 24px;
+    top: 162px;
+}
+
+.footer-section-rectangle-bottom {
+    width: 100%;
+    height: 95px;
+    left: 0px;
+    margin-top: 4000px;
+    background: #1D2432;
+}
+
+.footer-section-group2 {
+    width: 467px;
+    height: 30px;
+    left: 690px;
+    top: 33px;
+}
+
+.section-group2-term p {
+    width: 95px;
+    height: 30px;
+    left: 250px;
+    margin-top: 2000px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-left: -125px!important;
+}
+
+.section-group2-privacy p {
+    width: 111px;
+    height: 30px;
+    left: 380px;
+    top: -17px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: -120.90px!important;
+}
+
+.section-group2-cardholder p {
+    width: 183px;
+    height: 30px;
+    left: 530px;
+    top: -17px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: -120.90px!important;
+}
+
+.footer-section-splitbills p {
+    width: 207px;
+    height: 30px;
+    left: 158px;
+    top: 13px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+ @media only screen and (min-width: 1200px) {
+                                    .pos-f-t {
+                                        display: none;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 1200px) {
+                                    .header__footer__content a {
+                                        margin: 0px 25px;
+                                    }
+                                    .header__menu--nav {
+                                        padding-left: 10px;
+                                    }
+                                    .nav--menu {
+                                        margin-right: 35px;
+                                    }
+                                    .container__menu .row {
+                                        flex-wrap: nowrap;
+                                    }
+                                    .header__menu--nav a {
+                                        font-weight: 400;
+                                        color: #737373;
+                                        text-decoration: none;
+                                        font-size: 16px;
+                                    }
+                                    .main__body__card .row {
+                                        flex-direction: column-reverse;
+                                        text-align: center;
+                                        justify-content: center;
+                                    }
+                                    .main__body__card__mid .row {
+                                        flex-direction: column;
+                                        text-align: center;
+                                        justify-content: center;
+                                    }
+                                    /* .main__bot__image {
+                                        margin: 10px 14px;
+                                    } */
+                                    .img-mid {
+                                        padding-bottom: 20px;
+                                    }
+                                    .footer_information {
+                                        margin: 0 40px;
+                                    }
+                                    .footer-title {
+                                        margin-top: 104px;
+                                        margin-bottom: 30px;
+                                        font-family: Gothambook;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 22px;
+                                        color: #FFFFFF;
+                                    }
+                                    li a {
+                                        text-decoration: none;
+                                        font-family: Gothambook;
+                                        font-style: normal;
+                                        font-weight: normal;
+                                        font-size: 18px;
+                                        line-height: 30px;
+                                        color: #FFFFFF;
+                                    }
+                                    .container__main__bot .row {
+                                        justify-content: center;
+                                    }
+                                    .pos-f-t {
+                                        display: none;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 992px) {
+                                    .pos-f-t {
+                                        display: none;
+                                    }
+                                    .nav--logo {
+                                        font-family: RobotoSlab;
+                                        font-weight: 700;
+                                        font-size: 20px;
+                                        color: #161616;
+                                        text-decoration: none;
+                                    }
+                                    .header__menu--nav a {
+                                        font-weight: 400;
+                                        color: #737373;
+                                        text-decoration: none;
+                                        font-size: 14px;
+                                        font-family: Gothambook;
+                                    }
+                                    a.signup {
+                                        padding: 12.5px 12.5px;
+                                        background-color: #13A0FE;
+                                        text-decoration: none;
+                                        border-radius: 5px;
+                                        color: white;
+                                        margin-left: 24px;
+                                        font-family: Gothambook;
+                                        font-size: 14px;
+                                    }
+                                    a.login {
+                                        color: #737373;
+                                        margin-right: 20px;
+                                        font-family: Gothambook;
+                                        font-size: 14px;
+                                    }
+                                    .container__header__main .wrap {
+                                        padding: 0px;
+                                    }
+                                    .header__main {
+                                        flex-direction: column;
+                                        align-items: center;
+                                    }
+                                    .header__main__right {
+                                        padding: 0px;
+                                        margin: auto;
+                                    }
+                                    .header__main__left {
+                                        margin: auto;
+                                    }
+                                    .header__main__left--image {
+                                        margin-top: 35px;
+                                        margin-bottom: 35px;
+                                    }
+                                    .header__main__right--content--top {
+                                        padding: 0px;
+                                        font-size: 36px;
+                                        text-align: center;
+                                    }
+                                    .header__main__right--content--top span {
+                                        font-size: 36px;
+                                    }
+                                    .header__main__right--content--mid p {
+                                        font-size: 16px;
+                                        text-align: center;
+                                    }
+                                    .header__main__right--content--mid {
+                                        padding-top: 30px;
+                                        padding-bottom: 35px;
+                                    }
+                                    .header__main__right--image--bot {
+                                        text-align: center;
+                                    }
+                                    .header__main__right--image--bot .apple,
+                                    .google {
+                                        width: 120px;
+                                        margin-right: 35px;
+                                        padding-bottom: 30px;
+                                    }
+                                    .header__footer__content {
+                                        display: flex;
+                                        align-items: center;
+                                        flex-wrap: wrap;
+                                        text-align: center;
+                                    }
+                                    .header__footer__content a {
+                                        margin: auto;
+                                    }
+                                    .content__description {
+                                        font-size: 24px;
+                                        line-height: 35px;
+                                    }
+                                    .footer-title {
+                                        margin-top: 70px;
+                                        margin-bottom: 20px;
+                                        font-size: 20px;
+                                    }
+                                    li {
+                                        margin-bottom: 5px;
+                                    }
+                                    li a {
+                                        font-size: 14px;
+                                        line-height: 24px;
+                                    }
+                                    .input-text {
+                                        width: 100px;
+                                        height: 33px;
+                                        font-size: 11px;
+                                        padding-left: 5px;
+                                    }
+                                    #access_button {
+                                        background-image: url(Group\ 1121.png);
+                                        padding-right: 56px;
+                                        background-size: cover;
+                                    }
+                                    .download img {
+                                        width: 110px;
+                                    }
+                                    .download_google {
+                                        margin-top: 15px;
+                                        margin-bottom: 70px;
+                                    }
+                                    .policy {
+                                        margin: 0px 10px;
+                                        font-size: 13px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 768px) {
+                                    .pos-f-t {
+                                        display: flex;
+                                        justify-content: center;
+                                    }
+                                    .header__menu--nav {
+                                        flex-direction: column;
+                                    }
+                                    .topnav {
+                                        display: none;
+                                    }
+                                    .nav {
+                                        display: flex;
+                                        justify-content: flex-end;
+                                    }
+                                    .header__menu--nav a {
+                                        font-weight: 400;
+                                        color: #737373;
+                                        text-decoration: none;
+                                        font-size: 20px;
+                                        font-family: Gothambook;
+                                    }
+                                    .footer_information {
+                                        margin: 0px 100px;
+                                    }
+                                    .footer-left p {
+                                        font-size: 16px;
+                                        margin-left: 20px;
+                                    }
+                                    .policy {
+                                        font-size: 12px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 576px) {
+                                    .header__footer__content a {
+                                        flex: 50%;
+                                    }
+                                    .footer-top .wrap .row {
+                                        align-items: center;
+                                    }
+                                    .footer-title {
+                                        margin-top: 30px;
+                                        margin-bottom: 10px;
+                                        font-size: 16px;
+                                    }
+                                    li a {
+                                        font-size: 12px;
+                                        line-height: 0px;
+                                    }
+                                    .footer-left p {
+                                        font-size: 16px;
+                                    }
+                                    .policy {
+                                        font-size: 12px;
+                                    }
+                                }
+                                
+                                 ::-webkit-scrollbar {
+                                    width: 0px;
+                                }
+
+
+
+                                
+/* @media all and (min-width: 480px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media all and (min-width:600px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media all and (min-width:800px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1024ppx) {
+    body {
+        width: 100%;
+    }
+}
