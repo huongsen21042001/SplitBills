@@ -12,6 +12,10 @@
     /* 
 =======================CONTAINER-NAV-HEADER======================= */
     
+    body {
+        margin: 0;
+    }
+    
     .container {
         width: 100%;
         margin: 0;
@@ -24,16 +28,16 @@
     
     .nav-header {
         width: 100%;
-        background-color: white;
         display: flex;
         justify-content: center;
+        background-color: white;
     }
     
     .nav-header-menu {
         width: 1240px;
         height: 141px;
-        left: -1px;
         top: 0px;
+        left: -1px;
         display: flex;
         justify-content: center;
     }
@@ -45,23 +49,23 @@
     .nav-menu-split a {
         width: 122px;
         height: 40px;
+        margin-top: 52px;
+        color: #161616;
         font-family: Roboto Slab;
+        font-size: 28px;
+        text-decoration: none;
         font-style: normal;
         font-weight: bold;
-        font-size: 28px;
         line-height: 37px;
         display: flex;
         align-items: center;
-        color: #161616;
-        margin-top: 52px;
-        text-decoration: none;
     }
     
     .nav-menu {
         width: 429.3px;
         height: 22.14px;
-        margin-left: 50px;
         margin-top: 58px;
+        margin-left: 50px;
         display: inline-flex;
     }
     
@@ -69,48 +73,48 @@
         width: 129.79px;
         height: 22.14px;
         margin-left: 0px;
+        color: #161616;
         font-family: Gothaml;
+        font-size: 20px;
+        text-decoration: none;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
         line-height: 19px;
         display: flex;
         align-items: center;
-        color: #161616;
         opacity: 0.6;
-        text-decoration: none;
     }
     
     .nav-menu-features a {
         width: 86.86px;
         height: 22.14px;
         margin-left: 35px;
+        color: #161616;
         font-family: Gothaml;
+        font-size: 20px;
+        text-decoration: none;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
         line-height: 19px;
         display: flex;
         align-items: center;
-        color: #161616;
         opacity: 0.6;
-        text-decoration: none;
     }
     
     .nav-menu-blog a {
         width: 45.92px;
         margin-left: 40.93px;
         top: 58.26px;
+        color: #161616;
         font-family: Gothaml;
+        font-size: 20px;
+        text-decoration: none;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
         line-height: -100px;
         display: flex;
         align-items: center;
-        color: #161616;
         opacity: 0.6;
-        text-decoration: none;
     }
     
     .nav-menu-help a {
@@ -118,53 +122,52 @@
         height: 22.14px;
         margin-left: 42.93px;
         font-family: Gothaml;
+        color: #161616;
+        font-size: 20px;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
+        text-decoration: none;
         line-height: 19px;
         display: flex;
         align-items: center;
-        color: #161616;
         opacity: 0.6;
-        text-decoration: none;
     }
     
     .nav-menu-login a {
         width: 62.04px;
         height: 22.14px;
-        margin-left: 348.24px;
         margin-top: 58.26px;
+        margin-left: 348.24px;
         font-family: Gothaml;
+        font-size: 20px;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
+        text-decoration: none;
         line-height: 19px;
         display: flex;
         align-items: center;
         color: #161616;
-        text-decoration: none;
+        opacity: 0.6;
     }
-    /* Mấy cái menu là màu nhạt đúng không? Chỉnh lại size như vậy là ổn đó, bài t cũng làm vậy  á */
     
     .nav-menu-signup a {
         width: 76.05px;
         height: 22.14px;
-        /* top: 58.26px; */
+        color: #161616;
         font-family: Gothaml;
         font-style: normal;
         font-weight: normal;
+        text-decoration: none;
         font-size: 20px;
         line-height: 19px;
         display: flex;
         align-items: center;
-        color: #161616;
-        text-decoration: none;
     }
     
     .line {
         height: 59.43px;
-        margin-left: 26.27px;
         margin-top: 38.45px;
+        margin-left: 26.27px;
     }
     
     .nav-menu-signup {
@@ -198,9 +201,9 @@
     /* ======================  HERO PAGE=============== */
     
     .main-section-transaction {
+        width: 100%;
         display: flex;
         justify-content: center;
-        width: 100%;
         background: linear-gradient(259.16deg, #13A0FE 0%, #0E9AF7 78.07%, #129EFC 78.07%);
     }
     
@@ -213,34 +216,34 @@
     }
     
     .underline-splill {
-        text-decoration-line: underline;
         color: #FFFFFF;
+        text-decoration-line: underline;
     }
     
     .phone {
         width: 268px;
         height: 498px;
-        margin-left: 165px;
         padding-top: 34px;
+        margin-left: 61px;
     }
     
     .transaction-text {
         width: 724px;
         height: 303px;
-        margin-left: 82.5px;
         margin-top: 129px;
+        margin-left: 82.5px;
     }
     
     .transaction-text h1 {
+        margin-top: 0px;
         font-family: Gothaml;
         font-style: normal;
         font-weight: 500;
         font-size: 48px;
-        line-height: 46px;
         align-items: center;
         color: #FFFFFF;
         opacity: 0.9;
-        margin-top: 0px;
+        line-height: 60px;
     }
     
     .transaction-text span {
@@ -248,14 +251,16 @@
         font-style: normal;
         font-weight: 500;
         font-size: 48px;
-        background-color: #F0F8FF;
+        background-color: #FFFFFF50;
         text-decoration-line: underline;
+        line-height: 60px;
     }
     
     .transaction-text h4 {
-        width: 579px;
         height: 27px;
         left: 507px;
+        color: #FFFFFF;
+        margin: 40px 0px 0px 0px;
         font-family: Gothaml;
         font-style: normal;
         font-weight: normal;
@@ -263,14 +268,12 @@
         line-height: 27px;
         display: flex;
         align-items: center;
-        color: #FFFFFF;
-        margin: 40px 0px 0px 0px;
     }
     
     .app {
         width: 390px;
         height: 72px;
-        margin-top: 30px;
+        margin-top: 51px;
         display: inline-flex !important;
     }
     
@@ -302,27 +305,30 @@
         margin: 8px 163px 43px 163px;
         display: flex;
         justify-content: space-around;
-        padding-top: 8px;
+     
     }
     
     .group-partner1 {
         width: 154.72px;
         height: 115.94px;
-        padding: 0px 0px 0px 0px;
-        margin: 0px 0px 0px 39px;
+        padding-top: 8px;
+        padding: 0;
+
     }
     
     .group-partner1 img {
         width: 154.72px;
         height: 113.94px;
-        margin: 0px 0px 0px 0px;
+        margin: 1px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
     }
     
     .group-partner2 {
         width: 154.72px;
         height: 115.94px;
+        padding-top: 8px;
         margin-left: 97px;
+        padding: 0;
     }
     
     .group-partner2 img {
@@ -389,6 +395,7 @@
     .main-section2-become-title h2 {
         width: 658px;
         height: 137px;
+        margin-top: 60px;
         margin-left: 127px;
         font-family: Gotham;
         font-style: normal;
@@ -397,7 +404,6 @@
         line-height: 60px;
         color: #161616;
         text-align: center;
-        margin-top: 60px;
         display: flex;
         justify-content: center;
     }
@@ -446,14 +452,16 @@
     .main-section3-content {
         width: 1240px;
         height: 1618px;
-        left: 100px;
         margin-top: 81.53px;
+        left: 100px;
     }
     
     .main-section3-content-title p {
         width: 658px;
         height: 71px;
         margin-top: 53px;
+        margin-left: 250px;
+        color: #161616;
         font-family: Gotham;
         font-style: normal;
         font-weight: bold;
@@ -462,8 +470,6 @@
         display: flex;
         align-items: center;
         text-align: center;
-        color: #161616;
-        margin-left: 250px;
     }
     
     .main-section3-content-multi {
@@ -482,8 +488,8 @@
     .multi-text1 {
         width: 426px;
         height: 60px;
-        margin-left: 51px;
         margin-top: 176px;
+        margin-left: 51px;
         font-family: Gotham;
         font-style: normal;
         font-weight: bold;
@@ -497,6 +503,7 @@
         width: 553px;
         height: 40px;
         margin-top: 10px;
+        margin-left: 51px;
         font-family: Gothaml;
         font-style: normal;
         font-weight: normal;
@@ -504,7 +511,6 @@
         line-height: 40px;
         color: #161616;
         opacity: 0.6;
-        margin-left: 51px;
     }
     
     .main-section3-multi-img {
@@ -517,10 +523,10 @@
     .main-section3-content-safety {
         width: 1240px;
         height: 461px;
+        margin-top: 50px;
         left: 100px;
         background: rgba(18, 158, 252, 0.1);
         display: inline-flex;
-        margin-top: 50px;
     }
     
     .main-section3-content-safety-text {
@@ -538,20 +544,18 @@
         line-height: 60px;
         display: flex;
         align-items: center;
-        /* width: 349px; */
     }
     
     .safety-text2 {
         height: 40px;
         margin-top: 10px;
+        margin-left: 45px;
+        color: #161616;
         font-family: Gothaml;
         font-style: normal;
         font-weight: normal;
         font-size: 28px;
         line-height: 40px;
-        color: #161616;
-        margin-left: 45px;
-        /* padding-right: 100px;  */
     }
     
     .main-section3-safety-img {
@@ -593,6 +597,8 @@
         /* width: 465px; */
         height: 40px;
         margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 0px;
         font-family: Gothaml;
         font-style: normal;
         font-weight: normal;
@@ -600,14 +606,14 @@
         line-height: 40px;
         color: #161616;
         opacity: 0.6;
-        margin-left: 51px;
+        
     }
     
     .main-section3-cashless-img {
         width: 542px;
         height: 361px;
         margin-top: 50px;
-        margin-left: 122px;
+        margin-left: 120px;
     }
     /*========================= MAIN SECTION4 ============================ */
     
@@ -668,10 +674,11 @@
     
     .section4-promo1-text {
         width: 256px;
-        height: 114px;
+        height: 436px;
         text-align: center;
-        padding-top: 76px;
-        font-family: Gothaml;
+        margin-top: 76px; 
+        margin-bottom: 0px; 
+         font-family: Gothaml;
         font-style: normal;
         font-size: 28px;
         color: #FFFFFF;
@@ -686,11 +693,13 @@
     .section4-promo1-img img {
         width: 173px;
         height: 246px;
-        margin: 5px 172px 0px 0px
+        margin: 0px 172px 0px 0px;
+     
+
     }
     
     .unline-splitbill {
-        text-decoration-line: underline;
+        text-decoration-line: underline;    
     }
     
     .section4-promo2 {
@@ -722,6 +731,7 @@
         width: 278px;
         height: 239px;
         margin: 45px 45px 0px 22px;
+        padding-bottom:0px
     }
     
     .section4-promo3 {
@@ -766,18 +776,18 @@
         width: 1124px;
         height: 250px;
         margin-top: 104px;
+        margin-left: 0px;
         display: inline-flex;
     }
     
     .section-group1-content1 {
         width: 140px;
-        /* height: 250px; */
     }
     
     .group1-content1-text1 p {
         width: 140px;
         height: 30px;
-        left: 20px;
+        margin-top: 0px;
         font-family: Gotham;
         font-style: normal;
         font-weight: bold;
@@ -786,7 +796,7 @@
         display: flex;
         align-items: center;
         color: #FFFFFF;
-        margin-top: 0px;
+      
     }
     
     .group1-content1-text2 {
@@ -975,6 +985,7 @@
     .group1-content3-subscribe {
         width: 121px;
         height: 22.1px;
+        margin-top: 4px;
         left: 175px;
         font-family: Gotham;
         font-style: normal;
@@ -984,7 +995,7 @@
         display: flex;
         align-items: center;
         color: #FFFFFF;
-        margin-top: 0px;
+        
     }
     
     .group1-content3-submit {
@@ -1156,14 +1167,14 @@
         line-height: 30px;
         align-items: center;
         color: #FFFFFF;
-        margin-left: 40px;
+        margin-left: 58px;
         margin-top: 33px;
         margin-bottom: 32px;
     }
     
     .link-group {
         display: inline-flex;
-        margin-left: 508px;
+        margin-left: 450px;
         margin-bottom: 800px;
         margin-right: 158px;
     }
