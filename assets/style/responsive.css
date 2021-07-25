@@ -1,5 +1,5 @@
-          
-              @font-face {
+           /* ===============FONT ================ */
+            @font-face {
                 font-family: "Gotham";
                 src: url(../font/HomepageBaukasten/BOLD/HomepageBaukasten-Bold.ttf);
             }
@@ -11,566 +11,931 @@
           
           
           /* ===============RESPONSIVE WEMSITE================ */
-                
-                @media all and (max-width:575.9px) {
+
+                @media only screen and (min-width: 319.9px) and (max-width: 575.9px) {
                     .nav-container{
-                        max-width:575.9px;
+                        max-width:100%;
                         height: auto;
-                    }
-                    /* ==================HEADER PAGE======================= */
-                    .nav-header {
-                        max-width:575.9px;
-                        height: auto;
-                    }
-                    .nav-header-menu {
-                        width:575.9px;
-                        display: flex;
-                        justify-content: center;
-                        height: auto;
-                    }
-                    .nav-menu {
-                        max-width: 260px;
-                        margin-top: 65px;
-                        height: auto;
-                        display: flex;
-                        margin-left: 10px;
-                    }
-                    .nav-menu-split a {
-                        margin-top: 52px;
-                        margin-left:20px;
-                        font-size: 20px;
-                    }
-                    .nav-menu-works a{
-                        font-size: 15px;
-                        margin-left:-20px;
-                    }
-                    .nav-menu-features a{
-                        font-size: 15px;
-                        margin-left:-20px;
-                    }
-                    .nav-menu-blog a{
-                        font-size: 15px;
-                        margin-left:-10px;
-                    }
-                    .nav-menu-help a{
-                        font-size: 15px;
-                        margin-left:0px;
-                    }
-                    .nav-menu-login a {
-                        margin-top: 65px;
-                        max-width: 50%;
-                        font-size: 15px;
-                        margin-left: 110px;
-                        height: auto;
-                        margin-left:10px;
-                    }
-                    .line {
-                        margin-top: 52px;
-                        margin-bottom: 49px;
-                        margin-left: 5px;
-                    }
-                    .nav-menu-signup a {
                         margin: auto;
-                        font-size: 15px;
-                        margin-right: 10px;
-                        margin-left: 10px;  
+                        padding: auto;
                     }
-                    .nav-menu-signup{
-                        width: 80px;
-                        display: flex;
-                        justify-content: center;
-                        margin:auto;
-                    }
-
-                    /* ===================HERO PAGE========================= */
-
-                        .transaction{
-                            width: 575.9px;
-                            height: auto;
-                            display: block;
-                            justify-content: center;
-                        }
-                        .phone img{
-                            width:300px;
-                            height: auto;
-                            margin-left:100px;
-                        }
-                        .transaction-text{
-                            width:550px;
-                            height: auto;
-                            display: block;;
-                            justify-content: center;
-                        }
-                        .transaction-text h1{
-                            max-width:350px;
-                            font-family: Gothaml;
-                            font-style: normal;
-                            font-weight: 500;
-                            font-size: 30px;
-                            align-items: center;
-                            color: #FFFFFF;
-                            opacity: 0.9;
-                            display: block;
-                            justify-content: center;
-                            line-height: 60px;
-                            margin: 0;
-                        }
-
-                        .transaction-text h4{
-                            max-width:400px;
-                            font-family: Gothaml;
-                            font-style: normal;
-                            font-weight: 500;
-                            font-size: 18px;
-                            align-items: center;
-                            color: #FFFFFF;
-                            opacity: 0.9;
-                            display: block;
-                            justify-content: center;
-                            margin-top: 30px;
-                        }
-                        .app{
-                            margin-top:30px;
-                            margin-left: 5px;
-                        }
-
-
-
-                         /* ===================SPONSOR SECTION========================= */
-                
-                         .main-section-sponsor-section {
-                            width: 575.9px;
-                            height: auto;
-                        }
-                        .main-group-partner {
-                           width: 200px;
-                            display: flex;
-                            justify-content: center;
-                            margin: 0;
-                            margin-top: 8px;
-                        }   
-                       .group-partner1 img {
-                            width: 150px;
-                            margin-left:350px;
-                        }
-                        .group-partner2 img{
-                            width: 150px;
-                            margin-left:250px;
-                        }
-                        .group-partner3 img{
-                            width: 150px;
-                            margin-left:130px;
-                        }
-                        .group-partner4 img {
-                            width: 150px;
-                            margin-left:30px;
-                
-                        }
-
-
-             /* =====================START SECTION2===================== */
-                    .main-section2{
-                        width: 575.9px;
+                    body,.nav-container{
+                        width: 100%;
                         height: auto;
+                        margin: 0;
                     }
-                    .main-section2-content{
-                        width:575.9px;
-                        height: auto;
-                        margin:auto;
+                    .nav-menu,.nav-menu-login,.line,.nav-menu-signup,.btnSignup{
+                        display: none;
+                    }
+                    .dropdown{
                         display: block;
+                       margin-top: 30px; 
+                        margin-left: 30px;
+                    }
+                         /* ===============HEADER MENU PAGE & HERO PAGE================ */
+                    .nav-header{
+                        width: 100%;
+                        height: auto;
+                        margin: 0;
+                        flex-wrap: wrap;
+                    }
+
+                    .transaction-text h1{
+                        margin:auto;
+                        margin-top: -90px;
+                        margin-left: -10px;
+                        font-size: 35px;
+                        flex-wrap: wrap;
                         justify-content: center;
                     }
-                    .main-section2-become-title h2{
-                        width: 575.9px;
-                        height: auto;
-                        color: #161616;
-                        font-family: Gotham;
-                        font-style: normal;
-                        font-weight: bold;
-                        font-size: 30px;
-                        line-height:46px;
-                        margin-left:-40px;
-                    
-                    }
-                    .main-section2-become-conten{
-                        width: 575.9px;
-                        height: auto;
-                        margin-top: 30px;
-                    }
-                    .main-section2-become-content p{       
-                        font-family: Gothaml;
-                        font-style: normal;
-                        font-weight: bold;
-                        font-size: 24px;
-                        line-height:40px;
-                        display: flex;
+                    .transaction-text h4{
+                        margin-top: 50px;
+                        margin: 0;
+                        margin-left: -10px;
+                        font-size: 20px;
+                        flex-wrap: wrap;
                         justify-content: center;
-                        margin-left:28px;
+                    }
+                    .transaction-text span{
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                    h4{
+                        height: 300px;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                    }
+                    h1{
+                        height: 200px;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 5;
+                    }
+                    .app img{
+                       flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                    .googlepay img{
+                        max-width: 130px;
+                    }
+                   .appstore img{
+                       max-width: 130px;
+                       margin-top: -10px;
+                    }
+                         /* ===============SPONSOR  PAGE================ */
+
+                    .main-group-partner{
+                        max-width: 100%;
+                        height: auto;
+                        margin: auto;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+
+                        /* ===============SECTION2 PAGE================ */
+                        .main-section2-become-title{
+                            margin: auto;
+                            height: auto;
+                            margin-left: 10px;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        }
+                        .main-section2-become-title h2{
+                            width: 300px;
+                            font-size: 30px;
+                            height: auto;
+                            margin: auto;
+                            padding: auto;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                         
+                        }
+                  
+                    .nav-header,.transaction,
+                    .main-section2-sociali,.main-section2-content,.main-section3-content,.section-sponsor, 
+                    .main-section4-content-detail,.footer-section-rectangle-top,                             
+                    .footer-section-rectangle-bottom
+                    {
+                        max-width: 100%;
+                        height: auto;
+                        margin: auto;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                 
+                 .main-section2-become-content p{
+                        max-width:60%;
+                        height: auto;
+                        margin: auto;
+                        font-size: 25px;
+                        flex-wrap: wrap;
+                        justify-content: center;
                     }
 
                     .sociali-group{
-                        width: 575.9px;
+                        max-width: 250px;
                         height: auto;
-                        display: flex;
+                        margin: auto;
+                        margin-left: 100px;
+                        flex-wrap: wrap;
                         justify-content: center;
-                        margin-left: 2px;
-                        margin-top: 30px;
 
                     }
-                    
-                         /* =========================MAIN SECTION 3======================== */
-                         .main-section3{
-                            width: 575.9px;
-                            height: auto;
-    
-                          }
-                          .main-section3-content{
-                            width: 575.9px;
-                            height: auto;
-                            display: block;
-                          }
-    
-                          .main-section3-content p{
-                            margin-top:82px;
-                            font-family: Gotham;
-                            font-style: normal;
-                            font-weight: bold;
+                    .sociali-group img{
+                        max-width: 101px;
+                        height: auto;
+                        margin:0;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                     
+                    }
+                        /* ===============SECTION3 PAGE================ */
+                        .main-section3-content-title p{
+                            max-width: 100%;
                             font-size: 30px;
-                            line-height: 60px;
-                            margin-left:100px; 
-                            
-                          }
-    
+                            height: auto;
+                            margin: auto;
+                            flex-wrap: wrap;
+                            justify-content: center;
+
+                        }
+
+                    .main-section3-content-multi,.main-section3-content-safety,.main-section3-content-cashless{
+                        max-width:100%;
+                        height: auto;
+                        margin: auto;
+                        margin-top: 50px;
+                        flex-wrap: wrap; 
+                        justify-content: center;
+                    }
+                    .main-section3-multi-text,.main-section3-safety-text,.main-section3-cashless-text{
+                        max-width: 100%;
+                        margin: auto;
+                        height: auto;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                
+                    }
+                    .multi-text1,.multi-text2,.safety-text1,.safety-text2,.cashless-text1,.cashless-text2{
+                        max-width:350px;
+                        margin: auto;
+                        /* margin-left: 150px; */
+                    }
+                    .multi-text1,.safety-text1,.cashless-text1{
+                        font-size: 30px;
+                    }
+                    .multi-text2,.safety-text2,.cashless-text2{
               
-                    .main-section3-content-multi {
-                        width: 575.9px;
-                        margin-top: 50px;
-                        display: flex;
-                        align-items: center;
-                        text-align: center;
-                        flex-direction: column;
-                    }
-                    .main-section3-multi-img {
-                        margin-top: 10px;
-                        margin: auto;
-                    }
-                    .main-section3-multi-img img {
-                        margin: auto;
-                        display: flex;
-                        justify-content: center;
-                    }
-                    .multi-text1 {
-                        font-size: 30px;
-                        width: 575.9px;
-                        margin-top: 0px;
-                        display: flex;
-                        justify-content: center;
-                    }
-                    .multi-text2 {
-                        width: 575.9px;
-                        margin-top: 0px;
                         font-size: 20px;
-                        line-height: 10px;
+                        /* margin-left: 100px; */
                     }
-                    .main-section3-content-safety {
-                        width: 575.9px;
-                        margin-top: 50px;
-                        display: flex;
-                        align-items: center;
-                        text-align: center;
-                        flex-direction: column;
-                    }
-                    .safety-text1 {
-                        width: 575.9px;
-                        height: auto;
-                        display: flex;
-                        font-size: 30px;
-                        justify-content: center;
-                        margin-top: 5px;
-                    }
-                    .safety-text2 {
-                        width: 575.9px;
-                        margin-top: 0px;
-                        height: auto;
-                        font-size: 20px;
-                        line-height: 10px;
-                        justify-content: center;
-                    }
-                    .main-section3-safety-img {
-                        margin-top: 5px;
+                    .main-section3-multi-img img,.main-section3-safety-img img{
+                        max-width:250px;
                         margin: auto;
-                    }
-                    .main-section3-safety-img img {
-                        display: flex;
+                        flex-wrap: wrap;
                         justify-content: center;
                     }
-                    .main-section3-content-cashless {
-                        width: 575.9px;
-                        margin-top: 50px;
-                        display: flex;
-                        align-items: center;
-                        text-align: center;
-                        flex-direction: column;
-                    }
-                    .main-section3-cashless-img {
+                    .main-section3-cashless-img img{
+                        max-width:250px;
+                        margin-left: 0px;
                         margin: auto;
-                        display: flex;
+                        flex-wrap: wrap;
                         justify-content: center;
+
                     }
-                    .main-section3-safety-text {
-                        margin: auto;
-                        padding:auto;
-                    }
-                    .cashless-text1 {
-                        width: 575.9px;
-                        margin-top: 0px;
-                        display: flex;
-                        font-size: 30px;
-                        justify-content: center;
-                        margin-top: 5px;
-                    }
-                    .cashless-text2 {
-                        width: 575.9px;
-                        margin-top: 5px;
-                        height: auto;
-                        font-size: 20px;
-                        line-height: 10px;
-                        justify-content: center;
-                    }
+                         /* ===============TOP FEATURED PAGE================ */
                     
-
-                         /* =======================TOP FEATURE================= */
-                         .main-section4 {
-                            width: 575.9px;
-                        }
-                        .main-section4-content-detail {
-                            width: 575.9px;
-                            height: auto;
-                        }
-                        .main-section-content {
-                            max-width: 60%;
-                            height: auto;
-                        }
-
-                        .main-section4-title {
-                            max-width:575.9px;
-                            height: auto;
+                         .main-section4-title {
                             margin: auto;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                
+                            margin-top: -80px;
+    
                         }
-                        .section-promo {
-                            width: 575.9px;
-                            height: auto;
-                            display: block;
-                            justify-content: center;
-                        }
-                        
-                        .section4-promo1 {
-                            display: block;
-                            margin-top: 50px;
-                            margin-right: 1000px;
-                   
-                        }
-                         .section4-promo1-img img {
-                            margin-top:0px;
-                            width: 173px;
-                            height: auto;
-                        } 
-                        .section4-promo1-text {
-                            height: 114px;  
-                            display: block;
-                            margin: auto;
-                            padding-top:76px;
-                            justify-content: center;    
-                        }
-                        .section4-promo2 {
-                            display: block;
-                            margin-right: 1000px;
-                        }
-                        .section4-promo2-text {
-                            display: block;
-                            margin-top: 28px;
-                            height:76px;
-                            padding-top:76px;
-                            justify-content: center;
-                        }
-                       .section4-promo2-img{
-                           height: auto;
-                           margin-top: -75px;
-                        }  
-                
-                        
-
-                        .section4-promo3 {
-                            display: block;
-                            margin-right: 1000px;
-                        }
-                        .section4-promo3-text {
-                            padding-top:76px;
-                            display: block;
-                            margin-top: 28px;
-                            justify-content: center;
-                        }
-
-                            /* ======================FOOTER PAGE====================== */
-                    .footer-section {
-                        width: 575.9px;
+                    .section-promo,.main-section4-title{
+                        max-width: 100%;
+                        height: auto;
                         margin: auto;
-                        height: auto;
-                    }
-                    .footer-section-rectangle-top {
-                        width: 575.9px;
-                        height: auto;
-                        margin-top: 1060px;
-                        flex-wrap :wrap;
-                    }
-
-                    /* ================================= */
-                    .footer-section-group1 {
-                        width: 300px;
-                        height: auto;
-                        flex-wrap :wrap;
-                    }
-              
-               
-                    .group1-content1-text1 p{
-                        font-size: 20px;
-                    }
-                    .group1-content1-text2{
-                        font-size: 15px;
-                    }
-                    .group1-content1-text3{
-                        font-size: 15px;
-                    }
-                    .group1-content1-text4{
-                        font-size: 15px;
-                    }
-                    .group1-content1-text5{
-                        font-size: 15px;
-                    }
-                    .group1-content1-text6{
-                        font-size: 15px;
-                    }
-
-                    .group1-content2-text1 {
-                        font-size: 20px;
-                    }
-                    .group1-content2-text2{
-                        font-size: 15px;
-                    }
-                    .group1-content2-text3{
-                        font-size: 15px;
-                    }
-                    .group1-content2-text4{ 
-                        font-size: 15px;
-                    }
-                    .group1-content2-text5{
-                        font-size: 15px;
-                    }
-                    .group1-content2-text6{
-                        font-size: 15px;
-                    }
-
-                    .group1-content3-subscribe p{
-                        font-size: 20px;
-                    }
-                    .group1-content4-title p{
-                        font-size: 20px;
-                    }
-
-                    .section-group1-content2 {
-                        margin-left: 60px;
-                    }
-                    .section-group1-content3 {
+                        flex-wrap: wrap;
+                        justify-content: center;
                         margin-top: 50px;
-                        margin-left: 0px;
                     }
-
-                     .group1-content3-submit {
-                            width: 50%;
-                            margin-left: 30px;
-                     }
-                     content3-submit-email p{
-                         font-size: 15px;
-                     }
-                    .section-group1-content4 {
-                            margin: auto;
-                    }
-
-                    .group1-content3-submit{
-                        margin-left: 0px;
-                    }
-                    .content3-submit-input{
-                        width: 100px
-                    }
-                    .content3-submit-email p{
-                        font-size: 13px;
-                    }     
-                    .group1-content4-title p{
-                          margin-top: -10px;
-                      }
-                    .section-group1-content4{
-                        margin-top: -100px;
-                         margin-left:200px; 
-                         padding: auto; 
-                    }
-              
-                    .group1-content4-googlepay img {
-                        width:130px;
-                        margin: auto;
-                    }
-                    .group1-content4-appstore img {
-                        margin-top: 0px;
-                        width:130px;
-                        margin: auto;
-                    }
-             
-
-/* 
-                    ============================= */
-                 
-                    .footer-section-group2 {
-                        width: 575.9px;
-                        height: auto;
-                        display: inline-flex;
+                    .section4-promo{
+                        flex-wrap: wrap;
                         justify-content: center;
                     }
-                    .link-group {
-                        display: flex;
-                        height: auto;
-                        justify-content: center;
-                        margin-left:150px;
-                        width: 200px;
-                    }
-                    .section-group2-term p{
-                        font-size: 13px;
-                        margin-left: 10px;
+
+                    .section4-promo1, .section4-promo2,.section4-promo3{
+                        margin-top:50px;
+                      
 
                     }
-                    .section-group2-privacy p{
-                        font-size: 13px;
-                        margin-left: 10px;
-                    }
-                    .section-group2-cardholder p{
-                        font-size: 13px;
-                        margin-left: 10px;
-                        margin-right: 150px;
-                    }
-                    .footer-section-splitbills p {
-                        width: 200px;
-                        height: auto;
-                        font-size: 13px;
-                        color: aliceblue;
-                        margin-left: 150px;
-                    }
-                    .section4-promo2-img img {
-                        margin-top: 120px;
-                    }
-                }
-                
-
-
                   
+                    
+                        /* ===============FOOTER PAGE================ */
+                   
+                    .footer-section-rectangle-top{
+                        margin-top: 1200px;
+                    }
+                    .footer-section-group1{
+                        max-width: 100%;
+                        height: auto;
+                        margin: 0;
+                        
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                    .footer-section-rectangle-bottom{
+                        margin-top:0px;
+                        height: auto;
+                    }
+                    .section-rectangle-bottom{
+                        max-width: 100%;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        height: auto;
+                    }
+                    .footer-section-group2{
+                        max-width: 100%;
+                        margin:0;
+                        height: auto;
+                        margin-left: 150px;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                    .footer-section-splitbills p{
+                        margin: auto;
+                        justify-content: center;
+                    }
+                    .link-group{
+                     margin: auto;
+                      flex-wrap: wrap;   
+                      justify-content: center;
+                    } 
+                   
+                }
+
+                @media only screen and (min-width: 575.9px) and (max-width: 767.9px) {
+                    
+                                        body{
+                                            width: 100%;
+                                            height: auto;
+                                            margin: 0;
+                                        }
+                                        .nav-container{
+                                            max-width:100%;
+                                            height: auto;
+                                            margin: auto;
+                                            padding: auto;
+                                        }
+                    
+                                          /* ===================HERO PAGE========================= */
+                    
+                                       .nav-header {
+                                            max-width:100%;
+                                            margin: 0;
+                                            height: auto;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                        }
+                                       
+                                        .nav-header-menu {
+                                            width:100%;
+                                            margin: 0;                                            
+                                            display:flex;
+                                            justify-content: center;
+                                            height: auto;
+                                        }
+                                        .nav-menu,.nav-menu-login,.line,.nav-menu-signup,.btnSignup{
+                                            display: none;
+                                        }
+                                        .dropdown{
+                                            display: block;
+                                            margin-top: 20px;
+                                            margin-left: 30px;
+                                        }
+                                        
+                                        /* ===================HERO PAGE========================= */
+                                        .main-section-transaction{
+                                            width: 100%;
+                                            display: block;
+                                        }
+                    
+                                        .transaction{
+                                            max-width:100%;
+                                            height: auto;
+                                            display: block;
+                                            justify-content: center;
+                                        }
+                                        .phone img{
+                                            width:300px;
+                                            margin-left: 160px;
+                                            height: auto;
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        .transaction-text{
+                                            max-width:100%;
+                                            height: auto;
+                                            margin: auto;
+                                            justify-content: center;
+                                        }
+                                       .transaction-text h1{
+                                          max-width: 100%; 
+                                          margin-top: 82px; 
+                                        } 
+                                        
+                                        .transaction-text h4{
+                                            max-width:100%;
+                                            height: auto;
+                                        }
+                                       
+                                             /* ===================SPONSOR SECTION========================= */
+                                            .main-section-sponsor-section{
+                                                max-width:100%;
+                                                height: auto;
+                                            }
+                                             .section-sponsor{
+                                                 max-width:100%;
+                                                 height: auto;
+                                             }
+                                             .main-group-partner{
+                                                display:flex;
+                                                justify-content: center;           
+                                                 max-width:100%;
+                                                 margin: 0;
+                                                 height: auto;
+                                             }
+                                            .section-sponsor{
+                                                margin: 0;
+                                                 height: auto;
+                                                 width:100px;
+                                            }
+
+                                            .group-partner1, .group-partner2, .group-partner3, .group-partner4
+                                            {
+                                                margin: 0;
+                                            }
+
+                                            .main-section-sponsor-section {
+                                                height: auto;
+                                            }
+                    
+                    
+                    
+                                 /* =====================START SECTION2===================== */
+                                        .main-section2 {
+                                            width: 100%;
+                                            height: auto;
+                                        
+                                        }
+                                        .main-section2-sociali {
+                                            width:100%;
+                                            height:auto;
+                                        }
+                                        .main-section2-content{
+                                            max-width:100%;
+                                            height: auto;
+                                            flex-wrap: wrap;
+                                            justify-content: center;
+                                        }
+                                        .main-section2-become-title h2{
+                                            max-width: 550px;
+                                            height: auto;
+                                            flex-wrap: wrap;
+                                            justify-content: center;
+                                            font-size: 35px;
+                                            margin: 30px 0 0 0;
+
+                                        }
+                                        .main-section2-become-content p{
+                                            max-width: 100%;
+                                            font-size: 25px;
+                                            flex-wrap: wrap;
+                                            justify-content: center;
+                                            margin: 0;
+                                            padding:0;
+                                        }
+
+                                        .sociali-group {
+                                            max-width: 100%;
+                                            height: auto;
+                                            display: flex;
+                                            justify-content: center;
+                                             margin:5px 0 0 100px;     
+
+                                        }
+                                        
+
+                                             /* =========================MAIN SECTION 3======================== */
+                                             .main-section3 {
+                                                max-width: 100%;
+                                                height: auto;
+                                                margin:auto;
+                                                margin-top: -82px;
+                                                display: flex;
+                                                justify-content: center;
+                                                
+                                            }
+                                            .main-section3-content {
+                                                max-width:100%;
+                                                height:auto;
+                                            }
+                                            .main-section3-content-title{
+                                                max-width:100%;
+                                                height: auto;
+                                            }
+                                            .main-section3-content-title p {
+                                           
+                                                margin-left: 100px;
+                                                text-align: center;
+                                                font-size: 35px;
+                                            }
+                                            .main-section3-content-multi{
+                                                max-width: 100%;
+                                                margin-top: 24px;
+                                                display: block;  
+                                            }
+                                            .main-section3-content-safety,.main-section3-content-cashless{
+                                                max-width: 100%;
+                                                display: block;  
+                                            }
+                                            .main-section3-multi-text,.main-section3-cashless-text.main-section3-safety-text{
+                                                max-width: 100%;
+                                                display: block;
+                                                justify-content: center;
+                                                margin:auto;
+                                            }
+                                           
+
+                                            .multi-text1,.multi-text2,.safety-text1,.safety-text2,.cashless-text1,.cashless-text2{
+                                                display: flex;
+                                                justify-content: center;
+                                                margin: auto;
+
+                                            }
+
+                                            .multi-text1,.safety-text1,.cashless-text1{
+                                                font-size: 35px;
+
+                                            }
+                                            .multi-text2,.safety-text2,.cashless-text2{
+                                                font-size: 25px;
+                                            }
+
+                                            .main-section3-multi-img,.main-section3-safety-img,.main-section3-cashless-img{
+                                                max-width: 100%;
+                                                margin-top: 5px;
+                                                margin:auto;
+                                            }  
+                                            .main-section3-multi-img img,.main-section3-safety-img img{
+                                                max-width: 100%;
+                                                margin:auto;
+                                                display: flex;
+                                                justify-content: center;
+                                            }
+                                      
+                                                          
+                                             /* =======================TOP FEATURE================= */
+                                             .main-section4,.main-section4-content-detail,.main-section-content{
+                                                 max-width: 100%;
+                                                 height: auto;
+                                                 margin: 0;
+                                             }
+                                             .section-promo{
+                                                 max-width: 100%;
+                                                 height: auto;
+                                                 flex-wrap: wrap;
+                                                 justify-content: center;
+                                             }
+                                          
+                                             .main-section4-title{
+                                                 font-size: 35px;
+                                                max-width: 100%;
+                                                display: flex;
+                                                justify-content: center;
+                                                margin:auto;
+                                                margin-top: 85px;
+                                             }
+                                             .section4-promo1,.section4-promo2{
+                                                 max-width:50%;
+                                                 display: block;
+                                                 justify-content: center;
+                                                 margin-left: 28px;
+                                                 margin: auto;
+                                                 margin-top: 50px;
+
+                                             }
+                                             .section4-promo1-text {
+                                                height: 114px;  
+                                                display: block;
+                                                margin: auto;
+                                                padding-top:76px;
+                                                justify-content: center;    
+                                            }
+                                            .section4-promo2-text {
+                                                display: block;
+                                                margin-top: 28px;
+                                                height:76px;
+                                                padding-top:76px;
+                                                justify-content: center;
+                                            }
+                                           .section4-promo2-img{
+                                               height: auto;
+                                            }  
+                                            .section4-promo3-text {
+                                                padding-top:76px;
+                                                display: block;
+                                                margin-top: 28px;
+                                                justify-content: center;
+                                            } 
+                                            .section4-promo3{
+                                                max-width:50%;
+                                                display: block;
+                                                justify-content: center;
+                                                margin: auto;
+                                                margin-top: 25px;
+                                             }
+                                             .section4-promo2-text{
+                                                 margin-top:0;
+                                             }
+                                             .section4-promo3-text{
+                                                 margin: 0;
+                                             }
+                                    
+                                       
+                                            /* ====================FOOTER PAGE ===============
+                                            .
+                     */
+                                            .footer-section-rectangle-top{
+                                                max-width: 100%;
+                                                height: auto;
+                                                margin-top: 127px;
+                                            }
+                                            .footer-section-group1{
+                                                max-width: 100%;
+                                                height: auto;
+                                                margin: 0;                                    
+                                                 flex-wrap: wrap;
+                                                 justify-content: center;
+
+                                            }
+                                            .section-group1-content1{
+                                                height: auto;
+                                                display:block;
+
+                                            }
+                                            .group1-content1-text1 p,.group1-content2-text1,
+                                            .group1-content3-subscribe p,  .group1-content4-title p{
+                                                font-size: 20px;
+                                            }
+                                            .group1-content1-text2,.group1-content1-text3,
+                                            .group1-content1-text4,.group1-content1-text5,
+                                            .group1-content1-text6,.group1-content2-text2,
+                                            .group1-content2-text3,.group1-content2-text4,
+                                            .group1-content2-text5,.group1-content2-text6
+                                            {
+                                                font-size: 15px;
+                                            }
+                                           .group1-content3-subscribe p{
+                                                margin-top: 15px;
+                                            }
+                                          
+                                            .section-group1-content2 {
+                                                margin-left: 200px;
+                                            }
+                                            .section-group1-content3 {
+                                                margin-top: 30px;
+                                                margin-left: 110px;
+                                            }
+                                            .section-group1-content4{
+                                                /* margin: 0; */
+                                                margin: auto;
+                                                margin-top: 30px;
+                                                margin-left: 35px;
+                                                display: block;
+                                                justify-content: center;
+
+                                            }
+                                           
+                                            .content3-submit-input{
+                                                width: 150px
+                                            }
+                                            .content3-submit-email p{
+                                                font-size: 13px;
+                                            }     
+                                            .group1-content4-googlepay img, .group1-content4-appstore img  {
+                                                        width:130px;
+                                                        margin: auto;
+                                                    }
+            
+        
+                                            .footer-section-rectangle-bottom{
+                                                max-width: 100%;
+                
+                                            }
+                                            .footer-section-group2{
+                                                max-width: 100%;
+                                                margin:0;
+                                                margin-left: 150px;
+                                                flex-wrap: wrap;
+                                                justify-content: center;
+                                            }
+                                            .footer-section-splitbills p{
+                                                margin: auto;
+                                                justify-content: center;
+                                            }
+                                            .link-group{
+                                             margin: auto;
+                                              flex-wrap: wrap;   
+                                              justify-content: center;
+                                            }
+                                           
+                                        }
+                                        @media only screen and (min-width:767.9px) and (max-width:991.9px) {
+                                            
+                                                                body,.nav-container{
+                                                                    width: 100%;
+                                                                    height: auto;
+                                                                    margin: 0;
+                                                                }
+                                                                .nav-menu,.nav-menu-login,.line,.nav-menu-signup,.btnSignup{
+                                                                    display: none;
+                                                                }
+                                                                .dropdown{
+                                                                    display: block;
+                                                                    margin-top: 30px;
+                                                                    margin-left: 30px;
+                                                                }
+                                                                .nav-header,.transaction,.section-sponsor, 
+                                                                .main-section2-sociali,.main-section3-content,.main-section3-content-title,
+                                                                .main-section4-content-detail,.footer-section-rectangle-top,                             
+                                                                .footer-section-rectangle-bottom
+                                                                {
+                                                                    max-width: 100%;
+                                                                    height: auto;
+                                                                    margin: auto;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                }
+                                                                .main-section2-become-title h2,.main-section2-become-content p{
+                                                                    max-width:100%;
+                                                                    height: auto;
+                                                                    margin: auto;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                }
+                                                                .main-section3-content-multi,.main-section3-content-safety,.main-section3-content-cashless{
+                                                                    max-width: 100%;
+                                                                    height: auto;
+                                                                    margin: auto;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    margin-top: 50px;
+                                                                }
+                                                                
+                                                                .section-promo,.main-section4-title{
+                                                                    max-width: 100%;
+                                                                    height: auto;
+                                                                    margin: auto;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    margin-top: 50px;
+                                                                }
+                                                                .section4-promo3{
+                                                                    margin-top:50px;
+
+                                                                }
+                                                               
+                                                                .footer-section-rectangle-top{
+                                                                    margin-top: 627px;
+                                                                }
+                                                                .footer-section-group1{
+                                                                    max-width: 100%;
+                                                                    height: auto;
+                                                                    margin: 0;
+                                                                    
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                }
+                                                                .footer-section-rectangle-bottom{
+                                                                    margin-top:0px;
+                                                                    height: auto;
+                                                                }
+                                                                .section-rectangle-bottom{
+                                                                    max-width: 100%;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    height: auto;
+                                                                }
+                                                                .footer-section-group2{
+                                                                    max-width: 100%;
+                                                                    margin:0;
+                                                                    height: auto;
+                                                                    margin-left: 150px;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                }
+                                                                .footer-section-splitbills p{
+                                                                    margin: auto;
+                                                                    justify-content: center;
+                                                                }
+                                                                .link-group{
+                                                                 margin: auto;
+                                                                  flex-wrap: wrap;   
+                                                                  justify-content: center;
+                                                                }
+                                                               
+                                                            }
+
+                            @media only screen and (min-width:991.9px) and (max-width:1199.9px) {
+
+                                body,.nav-container{
+                                    max-width: 100%;
+                                    height: auto;
+                                }
+                                .nav-header{
+                                    max-width: 100%;
+                                    height: auto;
+                                }
+                                .nav-header-menu{
+                                    max-width: 100%;
+                                    margin: 52 0px 49px 0px;
+                                    height: auto;
+                                    display: flex;
+                                    justify-content: center;
+                                }
+                                .nav-menu,.nav-menu-login,.line,.nav-menu-signup,.btnSignup{
+                                    display: none;
+                                }
+                                .dropdown{
+                                    display: block;
+                                    margin-top: 50px;
+                                    margin-left: 30px;
+                                }
+                                .transaction,.transaction-text{
+                                    max-width:100%;
+                                    height: auto;
+                                    margin: auto;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                }
+                          
+                                .transaction,.transaction-text{
+                                    max-width:100%;
+                                    height: auto;
+                                    margin: auto;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                }
+
+                                .main-group-partner{
+                                    max-width: 100%;
+                                    height: auto;
+                                    margin: auto;
+                                    display: flex;
+                                    justify-content: center;
+                                }
+                                .main-section2-become-title{
+                                   margin: auto;
+                                    height: auto;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                    
+                                }
+                                .sociali-group {
+                                    margin-top: 30px;
+                                    height: auto;
+                                    display: flex;  
+                                    justify-content: center;
+                                }
+        
+
+                                .main-section-sponsor-section,.section-sponsor{
+                                    max-width:100%;
+                                    height: auto;
+                                    margin: auto;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                }
+                                .main-section2,.main-section2-sociali,.main-section2-content{
+                                    max-width:100%;
+                                    height: auto;
+                                    margin: auto;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                }
+                                .main-section2-become-title h2,.main-section2-become-content p{
+                                    max-width:100%;
+                                    height: auto;
+                                    margin: auto;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                }
+                                .main-section3,.main-section3-content{
+                                    max-width:100%;
+                                    height: auto;
+                                    margin: auto;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+
+                                }
+                                .main-section3-content-title {
+                                    margin:auto;
+                                    height: auto;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                }
+                             
+                                .main-section3-content-multi,.main-section3-content-safety,.main-section3-content-cashless{
+                                    max-width:100%;
+                                    height: auto;
+                                    margin: auto;
+                                    margin-top: 50px;
+                                    flex-wrap: wrap; 
+                                    justify-content: center;
+                                }
+                                .main-section4,.main-section4-content-detail,.main-section-content{
+                                    max-width:100%;
+                                    height: auto;
+                                    margin: auto;
+                                    margin-top: 50px;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                }
+                       
+                                .main-section3-multi-text,.main-section3-safety-text,.main-section3-cashless-text{
+                                    margin: auto;
+                                    height: auto;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+
+                                }
+                                .multi-text1,.multi-text2,.safety-text1,.safety-text2,.cashless-text1,.cashless-text2{
+                                    margin: auto;
+                                }
+
+                              
+                                .main-section4-title {
+                                    margin: auto;
+                                    margin-top: -100px;
+
+                                }
+                               
+                                .section-promo{
+                                    max-width: 100%;
+                                    height: auto;
+                                    margin: auto;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                    margin-top: 50px;
+                                    margin-left: 28px;
+                                }
+                                .section4-promo3{
+                                    margin-top:28px;
+                                } 
+                                
+                            .footer-section,.footer-section-rectangle-top{
+                                max-width:100%;
+                                height: auto;
+                                margin: auto;
+                                margin-top: 50px;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                            }
+                            .footer-section-group1{
+                                height: auto;
+                                margin-top: 50px;
+                                flex-wrap: wrap;
+                                justify-content: center; 
+                                }
+                          
+
+                           .section-group1-content2,.section-group1-content3{
+                                margin-left: 50px;
+                            }
+
+                            .footer-section-rectangle-bottom{
+                                max-width: 100%;
+                                height: auto;
+                                margin: auto;  
+                                flex-wrap: wrap;
+                                justify-content: center;
+
+                            }
+                            .footer-section-group2{
+                                max-width: 100%;
+                                margin:0;
+                                margin-left: 150px;
+                                height: auto;
+                                display: flex;
+                                justify-content: center;
+                            }
+                            .link-group{
+                             margin: auto;
+                             display: flex;
+                             margin-left: 50px;
+                              justify-content: center;
+                            }
+                 }
+                        
+                                                          
