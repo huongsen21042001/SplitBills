@@ -110,24 +110,26 @@
                         width: 60px !important;
                         height: 27px !important;
                         margin: auto;
-                        padding: auto;
+                        padding: 0px !important;
                     }
                     
                     #nav-journal {
                         width: 80px !important;
                         height: 27px !important;
-                        padding: auto;
+                        padding: 0px !important;
                     }
                     
                     #nav-service a {
                         width: 82px !important;
                         height: 27px !important;
-                        padding: 8px !important;
+                        padding: 0px !important;
+                        /* padding: 8px !important; */
                     }
                     
                     #nav-work a {
                         width: 112px !important;
                         height: 27px !important;
+                        padding: 0px !important;
                     }
                     
                     .nav-item button {
@@ -256,6 +258,21 @@
                     .text__center {
                         margin-top: 40px;
                     }
+                    
+                    .contact .get {
+                        width: 106px;
+                        height: 21px;
+                        margin: 0;
+                        padding: 0;
+                        font-family: ABeeZee;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 21px;
+                        text-align: center;
+                        align-items: center;
+                        color: #FFFFFF;
+                    }
                     /*===================== START SECTION2 ========================== */
                     
                     .main__footer {
@@ -270,22 +287,22 @@
                     }
                     
                     .main__section {
-                        max-width: 1240px !important;
-                        margin-left: 157px !important;
+                        max-width: 1240px;
+                        margin-left: 157px;
                         margin: auto;
                         padding: auto;
                     }
                     
                     #container__section2 {
-                        max-width: 1240px !important;
-                        height: 949px !important;
+                        max-width: 1240px;
+                        height: 949px;
                         margin: auto;
                     }
                     
                     #text__right1 {
-                        max-width: 579px !important;
-                        height: 391px !important;
-                        margin-top: 97px !important;
+                        max-width: 579px;
+                        height: 391px;
+                        margin-top: 97px;
                         padding: 0;
                     }
                     
@@ -336,7 +353,7 @@
                     }
                     
                     .text-right__1 p {
-                        margin-top: 14px !important;
+                        margin-top: 14px;
                         font-family: ABeeZee;
                         font-style: normal;
                         font-weight: normal;
@@ -352,8 +369,8 @@
                     }
                     
                     #text__right2 {
-                        max-width: 638px !important;
-                        height: 412px !important;
+                        max-width: 638px;
+                        height: 412px;
                         margin-top: 70px;
                     }
                     
@@ -640,6 +657,7 @@
                     }
                     
                     .container__section3__title p {
+                        margin-top: 100px !important;
                         width: 414.33px;
                         height: 57px;
                         font-family: ABeeZee;
@@ -1046,7 +1064,7 @@
                     
                     #pagination1 {
                         margin: 0 !important;
-                        margin-top: 103px !important;
+                        margin-top: 111px !important;
                         margin-left: -31px !important;
                     }
                     
