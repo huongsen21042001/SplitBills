@@ -1131,7 +1131,7 @@
                     .count__number2 {
                         width: 48px;
                         height: 36px;
-                        margin-top: -380px !important;
+                        margin-top: -130px !important;
                         margin-left: 1100px !important;
                         font-family: Poppins;
                         font-style: normal;
@@ -1251,7 +1251,7 @@
                     #container__footer {
                         max-width: 1240px !important;
                         height: 112px !important;
-                        margin-top: 372px !important;
+                        margin-top: 50px !important;
                         margin: auto;
                         color: white;
                     }
