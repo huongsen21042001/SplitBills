@@ -227,14 +227,14 @@
                         max-width: 80%;
                         height: auto;
                         font-size: 40px;
-                        margin-left: 50px !important;
+                        margin-left: 20px !important;
                         flex-wrap: wrap;
                         justify-content: center;
                     }
                     .text-left__2 h3 {
                         max-width: 90%;
                         height: auto;
-                        margin-left: -5px !important;
+                        margin-left: -45px !important;
                         font-size: 22px !important;
                         flex-wrap: wrap;
                         justify-content: center;
@@ -258,7 +258,8 @@
                         height: auto;
                         flex-wrap: wrap;
                         justify-content: center;
-                        margin-top: 880px !important;
+                        margin-top: 800px !important;
+                        margin-left: -100px !important;
                     }
                     #col-sm-4__col1 #col-sm-4__col2 #col-sm-4__col3 {
                         width: 100%;
@@ -298,7 +299,7 @@
                     }
                     .count__number1 {
                         width: 20%;
-                        margin-left: 500px !important;
+                        margin-left: 400px !important;
                     }
                     /* ======================SECTION5================ */
                     .container__section5 {
@@ -323,55 +324,31 @@
                     }
                     .count__number2 {
                         width: 10%;
-                        margin-left: 500px !important;
+                        margin-left: 400px !important;
                     }
                     /* ==================CONTAINER FOOTER============== */
                     #container__footer {
-                        max-width: 100%;
-                        height: auto !important;
-                        display: block;
-                        margin-top: 1500px;
-                        margin: auto;
-                        color: white;
-                    }
-                    .container__footer__line {
                         width: 100%;
-                        margin: auto;
+                        height: auto !important;
+                        margin: 0;
+                        margin-top: 100px !important;
                     }
                     #container__row__column {
-                        width: 100%;
-                        height: auto;
+                        width: 85%;
+                        height: auto !important;
+                        margin: 0;
                         flex-wrap: wrap;
-                        justify-content: center;
-                        display: block;
-                    }
-                    .col-sm-2 #about__jurnal {
-                        width: 50%;
-                        margin-top: -100px !important;
-                        margin-left: 200px!important;
-                        height: auto;
-                        display: block;
+                        justify-content: center
                     }
                     #foptimal {
-                        margin-left: 150px!important;
-                    }
-                    #about__jurnal {
-                        width: 50%;
+                        width: 10%;
                         height: auto;
-                        margin-left: 200px!important;
-                    }
-                    #service__work {
-                        width: 50%;
-                        height: auto;
-                        margin-left: 200px!important;
-                    }
-                    #icon__boulevard {
-                        width: 50%;
-                        height: auto;
-                        margin-left: 150px!important;
+                        margin-left: -100px !important;
                     }
                     #getin__touch {
-                        margin-left: 200px !important;
+                        width: 50% !important;
+                        margin-left: 600px !important;
+                        margin-top: -70px !important;
                     }
                 }
                 
@@ -618,52 +595,27 @@
                     }
                     /* ==================CONTAINER FOOTER============== */
                     #container__footer {
-                        max-width: 100%;
-                        height: auto !important;
-                        display: flex;
-                        flex-wrap: wrap;
-                        /* margin-top: 500px; */
-                        margin: auto;
-                        color: white;
-                    }
-                    .container__footer__line {
                         width: 100%;
-                        margin: auto;
+                        height: auto !important;
+                        margin: 0;
+                        margin-top: 100px !important;
                     }
                     #container__row__column {
-                        width: 100% !important;
-                        height: auto;
+                        width: 85%;
+                        height: auto !important;
+                        margin: 0;
                         flex-wrap: wrap;
-                        justify-content: center;
-                        display: flex;
-                    }
-                    .col-sm-2 #about__jurnal {
-                        width: 50%;
-                        margin-top: -100px !important;
-                        margin-left: 200px!important;
-                        height: auto;
-                        display: block;
+                        justify-content: center
                     }
                     #foptimal {
-                        margin-left: 150px!important;
-                    }
-                    #about__jurnal {
-                        width: 50%;
+                        width: 10%;
                         height: auto;
-                        margin-left: 200px!important;
-                    }
-                    #service__work {
-                        width: 50%;
-                        height: auto;
-                        margin-left: 200px!important;
-                    }
-                    #icon__boulevard {
-                        width: 50%;
-                        height: auto;
-                        margin-left: 150px!important;
+                        margin-left: -100px !important;
                     }
                     #getin__touch {
-                        margin-left: 200px !important;
+                        width: 50% !important;
+                        margin-left: 600px !important;
+                        margin-top: -70px !important;
                     }
                 }
                 
