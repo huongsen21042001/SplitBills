@@ -4,18 +4,12 @@
                     margin-left: 3px;
                 }
                 
-                .top-nav-collapse {
-                    /* background-color: #424f95 !important; */
-                }
-                
                 .navbar:not(.top-nav-collapse) {
                     background: transparent !important;
                 }
                 
                 @media (max-width: 991px) {
-                    .navbar:not(.top-nav-collapse) {
-                        /* background: #9c8f8f!important; */
-                    }
+                    .navbar:not(.top-nav-collapse) {}
                 }
                 
                 .btn-white {
@@ -34,6 +28,16 @@
                         height: auto;
                         margin: 0;
                         padding: 0;
+                    }
+                    .collapse {
+                        margin-left: -300px !important;
+                        margin-top: -150px !important;
+                    }
+                    .nav-item {
+                        margin-top: 10px !important;
+                    }
+                    #nav-about {
+                        margin-left: -325px !important;
                     }
                     .main__section,
                     .main__footer {
@@ -381,6 +385,16 @@
                         margin: 0;
                         padding: 0;
                     }
+                    .collapse {
+                        margin-left: -100px !important;
+                        margin-top: -120px !important;
+                    }
+                    .nav-item {
+                        margin-top: 10px !important;
+                    }
+                    #nav-about {
+                        margin-left: -325px !important;
+                    }
                     .main__section,
                     .main__footer {
                         width: 100%;
@@ -647,6 +661,16 @@
                         height: auto;
                         margin: 0;
                         padding: 0;
+                    }
+                    .collapse {
+                        margin-left: 100px !important;
+                        margin-top: -100px !important;
+                    }
+                    .nav-item {
+                        margin-top: 10px !important;
+                    }
+                    #nav-about {
+                        margin-left: -600px !important;
                     }
                     .navbar-expand-lg .navbar-nav {
                         width: 100% !important;
