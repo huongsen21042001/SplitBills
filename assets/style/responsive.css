@@ -217,7 +217,7 @@
                     }
                     .line__2 {
                         width: 50px;
-                        height: 0px;
+                        height: -2px;
                         margin-top: 15px;
                         opacity: 0.6;
                         border: 2px solid #FFFFFF;
@@ -234,7 +234,7 @@
                     .text-left__2 h3 {
                         max-width: 90%;
                         height: auto;
-                        margin-left: -45px !important;
+                        margin-right: 100px !important;
                         font-size: 22px !important;
                         flex-wrap: wrap;
                         justify-content: center;
@@ -259,7 +259,7 @@
                         flex-wrap: wrap;
                         justify-content: center;
                         margin-top: 800px !important;
-                        margin-left: -100px !important;
+                        margin-left: -80px !important;
                     }
                     #col-sm-4__col1 #col-sm-4__col2 #col-sm-4__col3 {
                         width: 100%;
@@ -294,12 +294,19 @@
                     }
                     /* ==========================SECTION4================= */
                     #pagination1 {
-                        /* margin-left: -190px !important; */
+                        margin-left: 25px !important;
                         margin-top: 130!important;
                     }
                     .count__number1 {
                         width: 20%;
-                        margin-left: 400px !important;
+                        margin-left: 450px !important;
+                    }
+                    .container__section4__title {
+                        margin-top: 400px !important;
+                        margin-left: 150px !important;
+                    }
+                    #swiper1__slide1__section4 {
+                        margin-left: 45px !important;
                     }
                     /* ======================SECTION5================ */
                     .container__section5 {
@@ -316,7 +323,7 @@
                         margin-left: 200px !important;
                     }
                     #swiper1__slide1__section5 {
-                        margin-left: 130px !important;
+                        margin-left: 10px !important;
                     }
                     #pagination2 {
                         /* margin-left: -190px !important; */
@@ -328,27 +335,40 @@
                     }
                     /* ==================CONTAINER FOOTER============== */
                     #container__footer {
-                        width: 100%;
-                        height: auto !important;
-                        margin: 0;
-                        margin-top: 100px !important;
-                    }
-                    #container__row__column {
-                        width: 85%;
+                        width: 100% !important;
                         height: auto !important;
                         margin: 0;
                         flex-wrap: wrap;
-                        justify-content: center
+                        margin-top: 100px !important;
+                    }
+                    .container__footer__line {
+                        width: 100%;
+                        height: auto;
+                        margin: auto;
+                    }
+                    #container__row__column {
+                        width: 100%;
+                        height: auto;
+                        margin: auto;
+                        flex-wrap: wrap;
+                        justify-content: center;
                     }
                     #foptimal {
-                        width: 10%;
-                        height: auto;
-                        margin-left: -100px !important;
+                        width: 100px !important;
+                    }
+                    #about__jurnal {
+                        width: 100px !important;
+                    }
+                    #service__work {
+                        width: 100px !important;
+                    }
+                    #icon__boulevard {
+                        width: 150px;
                     }
                     #getin__touch {
-                        width: 50% !important;
-                        margin-left: 600px !important;
-                        margin-top: -70px !important;
+                        width: 150px !important;
+                        margin-top: 10px !important;
+                        margin-right: 500px !important;
                     }
                 }
                 
