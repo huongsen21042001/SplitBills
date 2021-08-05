@@ -312,6 +312,10 @@
                     #swiper1__slide1__section4 {
                         margin-left: 45px !important;
                     }
+                    .count__number1 {
+                        width: 10%;
+                        margin-left: 400px !important;
+                    }
                     /* ======================SECTION5================ */
                     .container__section5 {
                         width: 100%;
@@ -339,40 +343,24 @@
                     }
                     /* ==================CONTAINER FOOTER============== */
                     #container__footer {
-                        width: 100% !important;
+                        width: 100%;
                         height: auto !important;
                         margin: 0;
+                        display: flex;
                         flex-wrap: wrap;
                         margin-top: 100px !important;
-                    }
-                    .container__footer__line {
-                        width: 100%;
-                        height: auto;
-                        margin: auto;
-                    }
-                    #container__row__column {
-                        width: 100%;
-                        height: auto;
-                        margin: auto;
-                        flex-wrap: wrap;
                         justify-content: center;
                     }
-                    #foptimal {
-                        width: 100px !important;
-                    }
                     #about__jurnal {
-                        width: 100px !important;
+                        margin-left: 100px !important;
                     }
                     #service__work {
-                        width: 100px !important;
-                    }
-                    #icon__boulevard {
-                        width: 150px;
+                        margin-left: 100px !important;
                     }
                     #getin__touch {
-                        width: 150px !important;
-                        margin-top: 10px !important;
-                        margin-right: 500px !important;
+                        width: 50% !important;
+                        margin-left: 950px !important;
+                        margin-top: -70px !important;
                     }
                 }
                 
@@ -607,7 +595,7 @@
                     .count__number1 {
                         width: 3% !important;
                         height: 20% !important;
-                        margin-left: 687px !important;
+                        margin-left: 500px !important;
                     }
                     /* =======================SECTION5============= */
                     .swiper {
@@ -625,7 +613,7 @@
                     .count__number2 {
                         width: 3% !important;
                         height: 20% !important;
-                        margin-left: 687px !important;
+                        margin-left: 500px !important;
                     }
                     /* ==================CONTAINER FOOTER============== */
                     #container__footer {
@@ -801,7 +789,7 @@
                     .count__number1 {
                         width: 3% !important;
                         height: 20% !important;
-                        margin-left: 936px !important;
+                        margin-left: 800px !important;
                     }
                     /* =======================SECTION5============= */
                     .swiper {
@@ -819,7 +807,7 @@
                     .count__number2 {
                         width: 3% !important;
                         height: 20% !important;
-                        margin-left: 936px !important;
+                        margin-left: 800px !important;
                     }
                     /* =================FOOTER=================== */
                     #container__footer {
@@ -832,7 +820,7 @@
                         justify-content: center;
                     }
                     #foptimal {
-                        margin-left: 0px !important;
+                        margin-left: -500px !important;
                     }
                     #about__jurnal {
                         margin-left: 50px !important;
