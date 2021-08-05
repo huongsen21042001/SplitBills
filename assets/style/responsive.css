@@ -1018,16 +1018,17 @@
                         height: auto !important;
                         margin: 0;
                         flex-wrap: wrap;
-                        justify-content: center
+                        justify-content: center;
+                        margin-left: -1000px !important
                     }
                     #foptimal {
                         width: 10%;
                         height: auto;
-                        margin-left: -100px !important;
+                        margin-left: -500px !important;
                     }
                     #getin__touch {
                         width: 50% !important;
-                        margin-left: 900px !important;
+                        margin-left: 2000px !important;
                         margin-top: -70px !important;
                     }
                 }
