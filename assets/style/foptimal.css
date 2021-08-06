@@ -1295,6 +1295,7 @@
                                                         line-height: 27px;
                                                         font-weight: 600;
                                                         text-decoration: none !important;
+                                                        color: #FFFFFF !important;
                                                     }
                                                     
                                                     .about__jurnalt .jurnalt__footer {
@@ -1310,7 +1311,7 @@
                                                         font-size: 18px;
                                                         line-height: 27px;
                                                         align-items: center;
-                                                        color: #FFFFFF;
+                                                        color: #FFFFFF !important;
                                                         text-decoration: none !important;
                                                     }
                                                     
@@ -1330,7 +1331,7 @@
                                                         font-size: 18px;
                                                         line-height: 27px;
                                                         align-items: center;
-                                                        color: #FFFFFF;
+                                                        color: #FFFFFF !important;
                                                         text-decoration: none !important;
                                                     }
                                                     
@@ -1376,7 +1377,7 @@
                                                         font-size: 18px;
                                                         line-height: 27px;
                                                         align-items: center;
-                                                        color: #FFFFFF;
+                                                        color: #FFFFFF !important;
                                                     }
                                                     
                                                     .footer__row .getin__touch {
@@ -1399,7 +1400,7 @@
                                                         font-weight: normal;
                                                         font-size: 18px;
                                                         line-height: 27px;
-                                                        color: #FFFFFF;
+                                                        color: #FFFFFF !important;
                                                         justify-content: center;
                                                         text-align: center;
                                                         align-items: center;
