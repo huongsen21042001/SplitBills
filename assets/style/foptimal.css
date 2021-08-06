@@ -1304,7 +1304,6 @@
                                                     .footer__row .about__jurnalt .jurnalt__footer {
                                                         width: 59px;
                                                         height: 27px;
-                                                        margin-top: 20px !important;
                                                         font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: 600;
@@ -1318,8 +1317,8 @@
                                                     .footer__row .service__work {
                                                         width: 86px !important;
                                                         height: 74px !important;
-                                                        margin-top: 31px;
-                                                        margin-left: 35px;
+                                                        margin-top: 20px;
+                                                        margin-left: 135px;
                                                     }
                                                     
                                                     .footer__row .service__work .service {
@@ -1336,8 +1335,8 @@
                                                     }
                                                     
                                                     .footer__row .service__work .work {
-                                                        width: 86px;
-                                                        height: 27px;
+                                                        width: 86px !important;
+                                                        height: 27px !important;
                                                         font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: 600;
@@ -1362,9 +1361,10 @@
                                                         text-decoration: none !important;
                                                     }
                                                     
-                                                    .footer__row .icon__boulevard .place .place__icon {
+                                                    .footer__row .icon__boulevard .place img {
                                                         width: 18.04px;
                                                         height: 22.96px;
+                                                        margin-right: 19px;
                                                     }
                                                     
                                                     .footer__row .icon__boulevard .place .boulevard {
@@ -1382,9 +1382,13 @@
                                                     .footer__row .getin__touch {
                                                         width: 171px !important;
                                                         height: 55px !important;
-                                                        margin-left: 250px !important;
+                                                        margin-left: 135px !important;
                                                         margin-top: 33px;
                                                         border: 1px solid #FFFFFF;
+                                                        justify-content: center;
+                                                        text-align: center;
+                                                        align-items: center;
+                                                        padding-top: 13px !important;
                                                     }
                                                     
                                                     .footer__row .getin__touch .href__get {
@@ -1395,11 +1399,10 @@
                                                         font-weight: normal;
                                                         font-size: 18px;
                                                         line-height: 27px;
-                                                        align-items: center;
                                                         color: #FFFFFF;
                                                         justify-content: center;
                                                         text-align: center;
                                                         align-items: center;
                                                         text-decoration: none !important;
-                                                        margin-left: 18px;
+                                                        margin-left: 0px;
                                                     }
