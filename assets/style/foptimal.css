@@ -34,7 +34,7 @@
                                                     
                                                     footer {
                                                         width: 100% !important;
-                                                        margin-top: 70px;
+                                                        margin-top: 19px;
                                                         align-items: center !important;
                                                     }
                                                     
@@ -66,6 +66,7 @@
                                                         background: linear-gradient( to bottom, rgba(49, 49, 49, 0.8), rgba(49, 49, 49, 0.8), rgba(49, 49, 49, 0.8), #1C1C1C) !important;
                                                         border: none;
                                                         object-fit: cover;
+                                                        z-index: -2;
                                                     }
                                                     
                                                     .view {
@@ -77,6 +78,14 @@
                                                         width: 100% !important;
                                                         height: 96px !important;
                                                         z-index: 1000;
+                                                    }
+                                                    
+                                                    .mix__color {
+                                                        position: absolute;
+                                                        width: 100% !important;
+                                                        height: 752px !important;
+                                                        background: linear-gradient( to bottom, rgba(49, 49, 49, 0.3), rgba(49, 49, 49, 0.3), rgba(49, 49, 49, 0.3), #1C1C1C) !important;
+                                                        z-index: -1;
                                                     }
                                                     
                                                     .navbar {
@@ -591,12 +600,6 @@
                                                         margin-top: 174px;
                                                     }
                                                     
-                                                    .container #section3__row {
-                                                        width: 1240px;
-                                                        height: 215px !important;
-                                                        margin-left: -15px!important;
-                                                    }
-                                                    
                                                     .container__section3__title {
                                                         width: 414.33px !important;
                                                         height: 57px !important;
@@ -619,11 +622,24 @@
                                                         margin-left: -15px !important;
                                                     }
                                                     
-                                                    #col-sm-4__col1,
+                                                    .container #section3__row {
+                                                        width: 1240px;
+                                                        height: 215px !important;
+                                                        margin-top: 50px;
+                                                        margin-left: -15px!important;
+                                                    }
+                                                    
+                                                    #col-sm-4__col1 {
+                                                        max-width: 347.28px !important;
+                                                        height: 215px !important;
+                                                        margin-left: 0px;
+                                                    }
+                                                    
                                                     #col-sm-4__col2,
                                                     #col-sm-4__col3 {
                                                         max-width: 347.28px !important;
                                                         height: 215px !important;
+                                                        margin-left: 99px;
                                                     }
                                                     
                                                     #section3__column1,
@@ -633,179 +649,133 @@
                                                         height: 215px !important;
                                                     }
                                                     
-                                                    .section3_column1_row1 #section3_column1_row1 {
-                                                        width: 252.2px !important;
-                                                        height: 42px !important;
-                                                    }
-                                                    
                                                     #section3_column1_row1 {
-                                                        width: 252.2px !important;
-                                                        height: 42px !important;
-                                                        margin-top: 2px!important;
-                                                        font-family: 'Poppins', sans-serif;
+                                                        width: 252.2px;
+                                                        height: 42px;
+                                                        margin-left: -15px;
+                                                        font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: 600;
                                                         font-size: 28px;
                                                         line-height: 42px;
                                                         align-items: center;
                                                         color: #FFFFFF;
-                                                        overflow: hidden;
-                                                        display: -webkit-box;
-                                                        -webkit-line-clamp: 1;
-                                                    }
-                                                    
-                                                    .section3_column1_row2 #section3_column1_row2 {
-                                                        width: 347.28px !important;
-                                                        height: 99px !important;
                                                     }
                                                     
                                                     #section3_column1_row2 {
                                                         width: 347.28px;
                                                         height: 99px;
                                                         margin-top: 14px;
-                                                        font-family: 'Poppins', sans-serif;
+                                                        margin-left: -15px;
+                                                        font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: normal;
                                                         font-size: 22px;
                                                         line-height: 33px;
                                                         color: #FFFFFF;
-                                                        overflow: hidden;
-                                                        display: -webkit-box;
-                                                        -webkit-line-clamp: 3;
-                                                    }
-                                                    
-                                                    .section3_column1_row3 #section3_column1_row3 {
-                                                        width: 113.09px !important;
-                                                        height: 30px !important;
                                                     }
                                                     
                                                     #section3_column1_row3 {
-                                                        display: flex;
+                                                        width: 140.09px;
+                                                        height: 30px;
+                                                        margin-top: 30px;
+                                                        margin-left: -15px;
                                                     }
                                                     
-                                                    .read__more {
-                                                        width: 107.09px !important;
-                                                        height: 30px !important;
-                                                        padding: 0;
-                                                        margin-top: 30px;
-                                                        font-family: 'Poppins', sans-serif;
+                                                    #section3_column1_row3 .read__more__click,
+                                                    #section3_column3_row3 .read__more__click,
+                                                    #section3_column2_row3 .read__more__click {
+                                                        width: 140.09px;
+                                                        height: 30px;
+                                                    }
+                                                    
+                                                    .read__more__click .read__more {
+                                                        width: 107.09px;
+                                                        height: 30px;
+                                                        font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: normal;
-                                                        font-size: 19px;
+                                                        font-size: 20px;
                                                         line-height: 30px;
                                                         align-items: center;
                                                         text-align: right;
+                                                        text-decoration-line: underline;
                                                         color: #FFFFFF;
-                                                        overflow: hidden;
-                                                        display: -webkit-box;
-                                                        -webkit-line-clamp: 1;
+                                                        padding-left: auto;
                                                     }
                                                     
-                                                    .line__section3 img {
-                                                        width: 16px;
+                                                    .read__more__click img {
+                                                        width: 16.1px;
                                                         height: 8.95px;
-                                                        margin-top: 40px;
-                                                        margin-left: 6px;
-                                                        object-fit: cover;
+                                                        margin-left: 2px;
                                                     }
-                                                    
-                                                    .section3_column2_row1 #section3_column2_row1 {
-                                                        width: 184.15px !important;
-                                                        height: 42px !important;
-                                                    }
+                                                    /* ========================= */
                                                     
                                                     #section3_column2_row1 {
-                                                        width: 184.15px !important;
-                                                        height: 42px !important;
-                                                        margin-left: 100px !important;
-                                                        font-family: 'Poppins', sans-serif;
+                                                        width: 184.15px;
+                                                        height: 42px;
+                                                        margin-left: -15px;
+                                                        font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: 600;
                                                         font-size: 28px;
                                                         line-height: 42px;
                                                         align-items: center;
                                                         color: #FFFFFF;
-                                                        overflow: hidden;
-                                                        display: -webkit-box;
-                                                        -webkit-line-clamp: 1;
-                                                    }
-                                                    
-                                                    .section3_column2_row2 #section3_column2_row2 {
-                                                        width: 347.28px !important;
-                                                        height: 99px !important;
                                                     }
                                                     
                                                     #section3_column2_row2 {
-                                                        width: 347.28px !important;
-                                                        height: 99px !important;
-                                                        margin-top: 14px !important;
-                                                        margin-left: 100px !important;
-                                                        font-family: 'Poppins', sans-serif;
+                                                        width: 347.28px;
+                                                        height: 99px;
+                                                        margin-top: 14px;
+                                                        margin-left: -15px;
+                                                        font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: normal;
                                                         font-size: 22px;
                                                         line-height: 33px;
                                                         color: #FFFFFF;
-                                                        overflow: hidden;
-                                                        display: -webkit-box;
-                                                        -webkit-line-clamp: 3;
-                                                    }
-                                                    
-                                                    .section3_column2_row3 #section3_column2_row3 {
-                                                        width: 107.09px !important;
-                                                        height: 30px !important;
                                                     }
                                                     
                                                     #section3_column2_row3 {
-                                                        display: flex;
-                                                        margin-left: 100px !important;
+                                                        width: 140.09px;
+                                                        height: 30px;
+                                                        margin-top: 30px;
+                                                        margin-left: -15px;
                                                     }
-                                                    
-                                                    .section3_column3_row1 #section3_column3_row1 {
-                                                        width: 347.28px !important;
-                                                        height: 215px !important;
-                                                    }
+                                                    /* ================= */
                                                     
                                                     #section3_column3_row1 {
                                                         width: 271.22px;
                                                         height: 42px;
-                                                        margin-left: 200px !important;
-                                                        font-family: 'Poppins', sans-serif;
+                                                        font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: 600;
                                                         font-size: 28px;
                                                         line-height: 42px;
                                                         align-items: center;
                                                         color: #FFFFFF;
-                                                        overflow: hidden;
-                                                        display: -webkit-box;
-                                                        -webkit-line-clamp: 1;
-                                                    }
-                                                    
-                                                    .section3_column2_row2 #section3_column3_row2 {
-                                                        width: 347.28px !important;
-                                                        height: 99px !important;
+                                                        margin-left: -15px;
                                                     }
                                                     
                                                     #section3_column3_row2 {
-                                                        width: 347.28px !important;
-                                                        height: 99px !important;
-                                                        margin-top: 14px !important;
-                                                        margin-left: 199px !important;
-                                                        font-family: 'Poppins', sans-serif;
+                                                        width: 347.28px;
+                                                        height: 99px;
+                                                        margin-top: 14px;
+                                                        font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: normal;
                                                         font-size: 22px;
                                                         line-height: 33px;
                                                         color: #FFFFFF;
-                                                        overflow: hidden;
-                                                        display: -webkit-box;
-                                                        -webkit-line-clamp: 3;
+                                                        margin-left: -15px;
                                                     }
                                                     
                                                     #section3_column3_row3 {
-                                                        display: flex;
-                                                        margin-left: 190px !important;
+                                                        width: 140.09px;
+                                                        height: 30px;
+                                                        margin-top: 30px;
+                                                        margin-left: -15px;
                                                     }
                                                     /*======================== SWIPER MY SWIPER SECTON 4 ===============*/
                                                     
@@ -821,15 +791,15 @@
                                                     
                                                     @import url(https://fonts.googleapis.com/css?family=Raleway);
                                                     .mySwiper {
-                                                        width: 1600px !important;
-                                                        height: 881px !important;
-                                                        margin-top: 117px !important;
+                                                        width: 1600px;
+                                                        height: 881px;
+                                                        margin-top: 117px;
                                                     }
                                                     
                                                     .container__section4__title {
-                                                        width: 216px !important;
-                                                        height: 57px !important;
-                                                        margin-left: 512px !important;
+                                                        width: 216px;
+                                                        height: 57px;
+                                                        margin-left: 512px;
                                                         font-family: ABeeZee;
                                                         font-style: normal;
                                                         font-weight: normal;
@@ -905,6 +875,12 @@
                                                         transition: all 0.3s ease-in-out 0s
                                                     }
                                                     
+                                                    .swiper-container-horizontal>.swiper-pagination-bullets,
+                                                    .swiper-pagination-custom,
+                                                    .swiper-pagination-fraction {
+                                                        bottom: 6px !important;
+                                                    }
+                                                    
                                                     .swiper-slide:hover .swiper-slide-details {
                                                         justify-content: center;
                                                         top: 52.3%;
@@ -973,10 +949,10 @@
                                                     }
                                                     
                                                     .count__number1 {
-                                                        width: 48px !important;
-                                                        height: 36px !important;
-                                                        margin-top: -180px !important;
-                                                        margin-left: 1180px !important;
+                                                        width: 48px;
+                                                        height: 36px;
+                                                        margin-top: -180px;
+                                                        margin-left: 1172px;
                                                         font-family: 'Poppins', sans-serif;
                                                         font-family: 'Poppins', sans-serif;
                                                         font-style: normal;
@@ -985,6 +961,11 @@
                                                         line-height: 36px;
                                                         align-items: center;
                                                         color: #FFFFFF;
+                                                    }
+                                                    
+                                                    .count__number1 p {
+                                                        width: 48px !important;
+                                                        height: 36px !important;
                                                     }
                                                     
                                                     .pagination__count1 {
@@ -1018,9 +999,9 @@
                                                     }
                                                     
                                                     .swiper-pagination-bullet-active {
-                                                        width: 24px !important;
-                                                        height: 24px !important;
-                                                        margin-left: 20px !important;
+                                                        width: 20px !important;
+                                                        height: 20px !important;
+                                                        margin-left: 1px !important;
                                                         border: 2px solid #FFFFFF !important;
                                                         box-sizing: border-box !important;
                                                         background: none !important;
@@ -1081,7 +1062,7 @@
                                                     #pagination2 {
                                                         width: 190px !important;
                                                         height: 24px !important;
-                                                        margin-top: -22px !important;
+                                                        margin-top: 10px !important;
                                                     }
                                                     
                                                     .swiper-container {
@@ -1095,10 +1076,10 @@
                                                     }
                                                     
                                                     .count__number2 {
-                                                        width: 48px;
-                                                        height: 36px;
-                                                        margin-top: -30px !important;
-                                                        margin-left: 1180px !important;
+                                                        width: 48px !important;
+                                                        height: 36px !important;
+                                                        margin-top: -36px !important;
+                                                        margin-left: 1172px !important;
                                                         font-family: 'Poppins', sans-serif;
                                                         font-style: normal;
                                                         font-weight: 600;
@@ -1109,6 +1090,11 @@
                                                         overflow: hidden;
                                                         display: -webkit-box;
                                                         -webkit-line-clamp: 1;
+                                                    }
+                                                    
+                                                    .count__number2 p {
+                                                        width: 48px !important;
+                                                        height: 36px !important;
                                                     }
                                                     
                                                     .swiper-slide__icon__design1 {
@@ -1217,7 +1203,7 @@
                                                     #container__footer {
                                                         max-width: 1240px !important;
                                                         height: 112px !important;
-                                                        margin-bottom: 60px !important;
+                                                        margin-bottom: 77px !important;
                                                         margin: auto;
                                                         color: white;
                                                     }
@@ -1238,6 +1224,8 @@
                                                         width: 1240px !important;
                                                         height: 112px;
                                                         display: flex;
+                                                        /* padding-top: 30px; */
+                                                        /* margin-top: 30px; */
                                                         margin-left: -15px !important;
                                                         align-items: center;
                                                     }
@@ -1278,6 +1266,9 @@
                                                     }
                                                     
                                                     .footer__row .about__jurnalt {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: space-between;
                                                         width: 59px;
                                                         height: 74px;
                                                         margin-left: 135px;
@@ -1285,11 +1276,9 @@
                                                     }
                                                     
                                                     .footer__row .about__jurnalt .about__footer {
-                                                        display: flex;
-                                                        justify-content: center;
-                                                        align-items: center;
                                                         width: 56px !important;
                                                         height: 27px !important;
+                                                        /* margin-bottom: 30px !important; */
                                                         font-family: 'Poppins', sans-serif;
                                                         font-size: 18px;
                                                         line-height: 27px;
@@ -1298,13 +1287,10 @@
                                                         color: #FFFFFF !important;
                                                     }
                                                     
-                                                    .about__jurnalt .jurnalt__footer {
-                                                        margin-top: 20px !important;
-                                                    }
-                                                    
                                                     .footer__row .about__jurnalt .jurnalt__footer {
-                                                        width: 59px;
-                                                        height: 27px;
+                                                        width: 59px !important;
+                                                        height: 27px !important;
+                                                        /* margin-top: 20px!important; */
                                                         font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: 600;
@@ -1316,9 +1302,12 @@
                                                     }
                                                     
                                                     .footer__row .service__work {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: space-between;
                                                         width: 86px !important;
                                                         height: 74px !important;
-                                                        margin-top: 20px;
+                                                        margin-top: 21px;
                                                         margin-left: 135px;
                                                     }
                                                     
@@ -1338,6 +1327,7 @@
                                                     .footer__row .service__work .work {
                                                         width: 86px !important;
                                                         height: 27px !important;
+                                                        margin-top: 20px;
                                                         font-family: Poppins;
                                                         font-style: normal;
                                                         font-weight: 600;
@@ -1406,4 +1396,8 @@
                                                         align-items: center;
                                                         text-decoration: none !important;
                                                         margin-left: 0px;
+                                                    }
+                                                    
+                                                    .jurnalt__footer a {
+                                                        margin-top: 50px !important;
                                                     }
