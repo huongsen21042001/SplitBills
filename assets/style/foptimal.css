@@ -34,7 +34,7 @@
                                                     
                                                     footer {
                                                         width: 100% !important;
-                                                        margin-top: 19px;
+                                                        margin-top: 28px;
                                                         align-items: center !important;
                                                     }
                                                     
@@ -63,7 +63,6 @@
                                                         background-repeat: no-repeat;
                                                         background-size: cover;
                                                         background-position: center center;
-                                                        /* background: linear-gradient( to bottom, rgba(49, 49, 49, 0.8), rgba(49, 49, 49, 0.8), rgba(49, 49, 49, 0.8), #1C1C1C) !important; */
                                                         border: none;
                                                         object-fit: cover;
                                                         z-index: -2;
@@ -281,7 +280,7 @@
                                                         font-family: 'Poppins', sans-serif;
                                                         font-style: normal;
                                                         font-weight: normal;
-                                                        font-size: 27px;
+                                                        font-size: 28px;
                                                         line-height: 42px;
                                                         align-items: center;
                                                         text-align: center;
@@ -303,8 +302,8 @@
                                                         font-family: 'Poppins', sans-sersif;
                                                         font-style: normal;
                                                         font-weight: 600;
-                                                        font-size: 19px;
-                                                        line-height: 30px;
+                                                        font-size: 20px;
+                                                        line-height: 39px;
                                                         flex-wrap: wrap;
                                                         justify-content: center;
                                                         color: #FFFFFF !important;
@@ -807,7 +806,7 @@
                                                     .mySwiper {
                                                         width: 1600px;
                                                         height: 881px;
-                                                        margin-top: 117px;
+                                                        margin-top: 120px;
                                                     }
                                                     
                                                     .container__section4__title {
@@ -982,10 +981,6 @@
                                                         height: 36px !important;
                                                     }
                                                     
-                                                    .pagination__count1 {
-                                                        display: flex;
-                                                    }
-                                                    
                                                     .swiper-slide {
                                                         counter-increment: num;
                                                     }
@@ -1015,7 +1010,7 @@
                                                     .swiper-pagination-bullet-active {
                                                         width: 20px !important;
                                                         height: 20px !important;
-                                                        margin-left: 1px !important;
+                                                        margin-left: -20px !important;
                                                         border: 2px solid #FFFFFF !important;
                                                         box-sizing: border-box !important;
                                                         background: none !important;
@@ -1077,6 +1072,7 @@
                                                         width: 190px !important;
                                                         height: 24px !important;
                                                         margin-top: 10px !important;
+                                                        margin-left: 6px !important;
                                                     }
                                                     
                                                     .swiper-container {
