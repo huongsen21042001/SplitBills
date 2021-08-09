@@ -23,7 +23,6 @@ h6 {
 }
 
 @media(max-width:575.9px) {
-    html,
     body,
     .container-fruid {
         width: 100%;
@@ -83,7 +82,7 @@ h6 {
         height: auto;
         font-size: 20px !important;
         margin-top: 10px !important;
-        margin-left: -10px!important;
+        margin-left: -5px!important;
         flex-wrap: wrap;
         text-align: center;
     }
@@ -205,7 +204,7 @@ h6 {
         height: auto;
     }
     .container__section3__title {
-        width: 100%;
+        max-width: 100%;
         flex-wrap: wrap;
         height: auto !important;
         font-size: 20px!important;
@@ -220,7 +219,7 @@ h6 {
         align-items: center;
     }
     #section3__row {
-        width: 50%;
+        max-width: 50%;
         height: auto;
         display: block;
     }
@@ -282,6 +281,14 @@ h6 {
     #container__section5 {
         margin-top: -50px !important;
     }
+    .container__section5__title {
+        margin-top: 60px !important;
+        margin-left: 110px !important;
+        font-size: 30px;
+    }
+    #swiper1__slide1__section5 {
+        margin-top: -50px !important;
+    }
     .count__number2 {
         width: 48px !important;
         height: 36px !important;
@@ -300,6 +307,7 @@ h6 {
     #container__footer {
         width: 100%;
         height: auto !important;
+        margin-top: 100px !important;
     }
     .footer__row {
         width: 100% !important;

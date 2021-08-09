@@ -52,11 +52,20 @@
             <div class="view">
                 <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
                     <a class="navbar-brand" href="#">
-                                FOptimal
-                            </a>
+                        FOptimal
+                    </a>
                     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+                        <span class="navbar-toggler-icon"></span>
+                        <!-- <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a id="nav" href="#about">About</a>
+                            <a id="nav" href="#service">Services</a>
+                            <a id="nav" href="#contact">contact</a>
+
+                        </div> -->
+
+                    </button>
+
                     <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                         <ul class="navbar-nav ">
                             <li class="nav-item" id="nav-about">
@@ -66,7 +75,7 @@
                                 <a class="nav-link" id="nav-journal" href="#container__section3">JOURNAL</a>
                             </li>
                             <li class="nav-item" id="nav-service">
-                                <a class="nav-link" href="#container__section5">SERVICE</a>
+                                <a class="nav-link" href="#container__section5">SERVICES</a>
                             </li>
                             <li class="nav-item" id="nav-work">
                                 <a class="nav-link" href="#container__section4">OUR WORK</a>
@@ -90,13 +99,13 @@
                             <h4 class="subtext-header">Industrial style interior for a young married couple.
                             </h4>
                             <a class="text__center" href="#">
-                                    DISCOVER MORE
-                                    <span class="line__discover">underline</span>
-                                    <a>
-                            </div>
+                                DISCOVER MORE
+                                <span class="line__discover">underline</span>
+                                <a>
                         </div>
                     </div>
                 </div>
+            </div>
         </header>
 
         <menu class="main__footer">
@@ -117,7 +126,8 @@
 
                             <div class="text-right__2">
                                 <p>
-                                    <u>Furniture Optimal</u> stands out among property<br> agencies, and offers a wide
+                                    <u><i>Furniture Optimal</i></u> stands out among property<br> agencies, and offers a
+                                    wide
                                     range of creative and<br> strategic services for brands,<br> companies, foundations
                                     and other remarkable<br> organizations.
                                 </p>
@@ -155,7 +165,8 @@
 
                             <div class="text-left__2">
                                 <h3>
-                                    <u>Furniture Optimal</u> isn’t just a team — it’s a family. We all share the same
+                                    <u><i>Furniture Optimal</i></u> isn’t just a team — it’s a family. We all share the
+                                    same
                                     vision here: to push ideas all the way, without taking ourselves too seriously, and
                                     overcoming challenges together.
                                 </h3>
@@ -295,7 +306,7 @@
 
             <div class="swiper-container swiper" id="container__section5">
                 <div class="container__section5__title">
-                    Our <span class="underline-slide" style="text-decoration: underline;">Service</span>
+                    Our <span class="underline-slide" style="text-decoration: underline;">Services</span>
                 </div>
                 <div class="swiper-wrapper" id="swiper-wrapper5">
                     <div class="swiper-slide" id="swiper1__slide1__section5">
@@ -395,7 +406,7 @@
                         <div class="service__work">
                             <a class="service" href="#container__section5">Services </a>
                             <a class="work" href="#container__section4">Our Work <a>
-                             </div>
+                        </div>
 
                         <div class="icon__boulevard">
                             <a href="https://wiicamp.com/about" class="place">
@@ -481,6 +492,26 @@
                         nav.classList.remove("active-main");
                     }
                 };
+            </script>
+
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+
+                    $(document).ready(function() {
+                        $(".jsToggleNav").on('click', function() {
+                            if ($(".jsSideNav").hasClass('active')) {
+                                $(".jsSideNav").removeClass('active');
+                            } else {
+                                $(".jsSideNav").addClass('active');
+                            }
+                        })
+                    });
+                }
             </script>
             <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </body>
