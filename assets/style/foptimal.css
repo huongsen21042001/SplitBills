@@ -873,7 +873,7 @@
                                                     
                                                     .swiper-slide-details {
                                                         position: absolute;
-                                                        text-align: center;
+                                                        /* text-align: center; */
                                                         padding-left: 1em;
                                                         padding-right: 1em;
                                                         width: 100%;
@@ -895,7 +895,7 @@
                                                     }
                                                     
                                                     .swiper-slide:hover .swiper-slide-details {
-                                                        justify-content: center;
+                                                        /* justify-content: center; */
                                                         top: 52.3%;
                                                         left: 50%;
                                                         opacity: 1
@@ -904,9 +904,9 @@
                                                     .swiper-slide-details h3 {
                                                         color: #fff;
                                                         font-weight: 500;
-                                                        letter-spacing: 0.15em;
+                                                        /* letter-spacing: 0.15em; */
                                                         margin-bottom: 0.5em;
-                                                        text-transform: uppercase
+                                                        /* text-transform: uppercase */
                                                     }
                                                     
                                                     .swiper-slide-details p {
@@ -931,19 +931,22 @@
                                                         height: 72px !important;
                                                         margin-left: 46px!important;
                                                         margin-bottom: 31px !important;
+                                                        font-family: 'Poppins', sans-serif;
+                                                        font-style: normal;
+                                                        font-size: 48px;
+                                                        line-height: 72px;
+                                                        align-items: center;
+                                                        color: #FFFFFF;
+                                                    }
+                                                    
+                                                    .swiper-slide-details h3 {
+                                                        font-weight: 600 !important;
                                                     }
                                                     
                                                     .swiper-slide-title h3 {
                                                         width: 356px !important;
                                                         height: 72px !important;
                                                         padding-top: 20px!important;
-                                                        font-family: 'Poppins', sans-serif;
-                                                        font-style: normal;
-                                                        font-weight: normal;
-                                                        font-size: 48px;
-                                                        line-height: 72px;
-                                                        align-items: center;
-                                                        color: #FFFFFF;
                                                     }
                                                     
                                                     .swiper-pagination-bullet-active {
