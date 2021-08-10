@@ -8,9 +8,18 @@
                                                                 padding: 0 !important;
                                                             }
                                                             
+                                                            .pagination__click span {
+                                                                width: 9px;
+                                                                height: 9px;
+                                                                margin: auto !important;
+                                                                text-align: center;
+                                                                align-items: center;
+                                                                justify-content: center;
+                                                            }
+                                                            
                                                             .text-right__2 span {
                                                                 font-family: 'Poppins', sans-serif;
-                                                                font-style: italic;
+                                                                /* font-style: italic; */
                                                                 font-weight: normal !important;
                                                                 font-size: 22px;
                                                                 line-height: 33px;
