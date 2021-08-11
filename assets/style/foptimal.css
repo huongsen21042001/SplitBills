@@ -1452,6 +1452,7 @@
                                                             .jurnalt__footer a {
                                                                 margin-top: 50px !important;
                                                             }
+                                                            /* =====================BUTTON NAVIGATION ====================== */
                                                             
                                                             .sidenav {
                                                                 height: 100%;
@@ -1459,7 +1460,7 @@
                                                                 position: fixed;
                                                                 z-index: 1;
                                                                 top: 0;
-                                                                right: 0;
+                                                                left: 0;
                                                                 background-color: #111;
                                                                 overflow-x: hidden;
                                                                 transition: 0.5s;
@@ -1468,4 +1469,40 @@
                                                             
                                                             .sidenav.active {
                                                                 width: 250px;
+                                                            }
+                                                            
+                                                            #about__nav,
+                                                            #journa__nav,
+                                                            #service__nav,
+                                                            #ourwork__nav,
+                                                            #close__icon {
+                                                                margin: 0;
+                                                                padding: 0;
+                                                                font-family: 'Poppins', sans-serif;
+                                                                font-style: normal;
+                                                                font-weight: normal;
+                                                                font-size: 18px;
+                                                                line-height: 27px;
+                                                                align-items: center;
+                                                                color: #FFFFFF !important;
+                                                                text-decoration: none !important;
+                                                                display: block;
+                                                                margin-top: 20px;
+                                                                margin-left: 35px !important;
+                                                            }
+                                                            
+                                                            #close__nav {
+                                                                margin: 0;
+                                                                padding: 0;
+                                                                font-family: 'Poppins', sans-serif;
+                                                                font-style: normal;
+                                                                font-weight: normal;
+                                                                font-size: 18px;
+                                                                line-height: 27px;
+                                                                align-items: center;
+                                                                color: #FFFFFF !important;
+                                                                text-decoration: none !important;
+                                                                display: block;
+                                                                margin-top: -30px;
+                                                                margin-left: 130px !important;
                                                             }

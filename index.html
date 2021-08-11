@@ -54,17 +54,17 @@
                     <a class="navbar-brand" href="#">
                         FOptimal
                     </a>
-                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        <!-- <div id="mySidenav" class="sidenav">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <a id="nav" href="#about">About</a>
-                            <a id="nav" href="#service">Services</a>
-                            <a id="nav" href="#contact">contact</a>
-
-                        </div> -->
-
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" onclick="openNav()"></span>
                     </button>
+                    <div id="mySidenav" class="sidenav">
+                        <a id="close__nav" href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                        <a id="about__nav" href="#container__section2">ABOUT</a>
+                        <a id="journa__nav" href="#container__section3">JOURNA</a>
+                        <a id="service__nav" href="#container__section5">SERVICES</a>
+                        <a id="ourwork__nav" href="#container__section4">OUR WORK</a>
+
+                    </div>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                         <ul class="navbar-nav ">
@@ -493,27 +493,15 @@
                     }
                 };
             </script>
-
             <script>
                 function openNav() {
-                    document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("mySidenav").style.width = "200px";
                 }
 
                 function closeNav() {
                     document.getElementById("mySidenav").style.width = "0";
-
-                    $(document).ready(function() {
-                        $(".jsToggleNav").on('click', function() {
-                            if ($(".jsSideNav").hasClass('active')) {
-                                $(".jsSideNav").removeClass('active');
-                            } else {
-                                $(".jsSideNav").addClass('active');
-                            }
-                        })
-                    });
                 }
             </script>
-            <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </body>
 
 </html>
