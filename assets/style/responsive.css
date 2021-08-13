@@ -169,6 +169,7 @@
                 /* ======== */
                 #section2__row2 {
                     width: 100% !important;
+                    margin-top: 20px;
                     height: auto;
                     display: block !important;
                     justify-content: center;
@@ -176,7 +177,7 @@
                     align-items: center;
                 }
                 #text__left1 {
-                    margin-top: 460px !important;
+                    margin-top: 490px !important;
                     margin-left: -150px !important;
                     height: auto !important;
                     display: block;
@@ -279,7 +280,7 @@
                 .count__number1 {
                     max-width: 48px !important;
                     height: 36px !important;
-                    margin-top: -200px !important;
+                    margin-top: -60px !important;
                     margin-left: 300px !important;
                     font-family: 'Poppins', sans-serif;
                     font-family: 'Poppins', sans-serif;
@@ -289,6 +290,10 @@
                     line-height: 36px;
                     align-items: center;
                     color: #FFFFFF;
+                }
+                #pagination1 {
+                    margin-top: -40px;
+                    margin-left: 15px;
                 }
                 #container__section4 {
                     margin-top: 450px !important;
@@ -360,10 +365,14 @@
                     margin-left: 15px !important;
                     margin-right: 15px !important;
                 }
+                #pagination2 {
+                    margin-top: 80px !important;
+                    margin-left: 20px;
+                }
                 .count__number2 {
                     width: 48px !important;
                     height: 36px !important;
-                    margin-top: -95px !important;
+                    margin-top: 60px !important;
                     margin-left: 300px !important;
                     font-family: 'Poppins', sans-serif;
                     font-family: 'Poppins', sans-serif;
@@ -391,7 +400,11 @@
                     margin-left: 100px !important;
                 }
                 .footer__row .icon__boulevard .place {
-                    margin-left: -35px !important;
+                    margin-left: -60px !important;
+                    width: 90%;
+                }
+                .footer__row .getin__touch {
+                    margin-left: 110px !important;
                 }
             }
             /* ============================================================================================ */
@@ -797,11 +810,13 @@
                 }
                 #section2__row1 {
                     max-width: 100%;
-                    margin: auto;
+                    margin-left: 15px !important;
                     height: auto;
                     display: flex !important;
                     flex-wrap: wrap;
-                    justify-content: center;
+                }
+                #text__right1 {
+                    margin-left: 50px !important;
                 }
                 #text__right2 {
                     margin-top: 20px !important;
@@ -818,12 +833,12 @@
                 #text__left1 {
                     width: 100% !important;
                     margin-top: 50px !important;
-                    margin-left: 110px!important;
+                    margin-left: 45px!important;
                     display: flex;
                     justify-content: center;
                 }
                 #text__left2 {
-                    margin-left: 135px;
+                    margin-left: 75px;
                     flex-wrap: wrap;
                 }
                 .our__flex {
@@ -861,18 +876,18 @@
                 }
                 #col-sm-4__col1 {
                     height: auto !important;
-                    margin-left: 15px !important;
+                    margin-left: 35px !important;
                     max-width: 347px !important;
                 }
                 #col-sm-4__col2 {
                     height: auto !important;
-                    margin-left: 50px !important;
+                    margin-left: 15px !important;
                     max-width: 347px !important;
                 }
                 #col-sm-4__col3 {
                     height: auto !important;
                     margin-top: 15px !important;
-                    margin-left: 15px !important;
+                    margin-left: 35px !important;
                     max-width: 347px !important;
                 }
                 /* =======SECTION 4============= */
@@ -884,10 +899,10 @@
                     height: auto;
                     flex-wrap: wrap;
                     justify-content: center;
-                    margin-left: 200px !important;
+                    margin-left: 245px !important;
                 }
                 #swiper-wrapper4 {
-                    margin-left: -520px !important;
+                    margin-left: -528px !important;
                 }
                 #pagination1 {
                     margin-left: 30px !important;
@@ -911,19 +926,6 @@
                     left: 50%;
                     opacity: 1
                 }
-                .swiper-slide .swiper-slide-overlay {
-                    background: rgba(0, 0, 0, 0.7);
-                    position: absolute;
-                    width: 480px !important;
-                    height: 682px !important;
-                    left: 0;
-                    top: 0;
-                    bottom: 0;
-                    right: 0;
-                    -webkit-transition: all 0.4s ease-in-out 0s;
-                    -moz-transition: all 0.4s ease-in-out 0s;
-                    transition: all 0.4s ease-in-out 0s
-                }
                 .swiper-slide-overlay {
                     opacity: 1 !important;
                 }
@@ -935,10 +937,13 @@
                     justify-content: center;
                     margin-left: 200px !important;
                 }
+                #swiper-wrapper5 {
+                    margin-top: 90px !important;
+                }
                 .count__number2 {
                     max-width: 48px !important;
                     height: 36px !important;
-                    margin-top: -38px !important;
+                    margin-top: 75px !important;
                     margin-left: 700px !important;
                     font-family: 'Poppins', sans-serif;
                     font-family: 'Poppins', sans-serif;
@@ -958,11 +963,12 @@
                 }
                 .swiper-slide__image1 img {
                     width: 400px !important;
-                    margin-left: 15px !important;
+                    margin-left: 35px !important;
                     margin-right: 15px !important;
                 }
                 #pagination2 {
-                    margin-left: 30px !important;
+                    margin-top: 100px !important;
+                    margin-left: 35px !important;
                 }
                 /* ====================FOOTER================= */
                 #container__footer {
@@ -976,17 +982,17 @@
                     flex-wrap: wrap;
                     margin-left: 15px !important;
                 }
-                .about__jurnalt {
-                    margin-left: 20px !important;
+                .footer__row .about__jurnalt {
+                    margin-left: 150px !important;
                 }
-                .service__work {
-                    margin-left: 50px !important;
+                .footer__row .service__work {
+                    margin-left: 220px;
                 }
                 .footer__row .icon__boulevard .place {
-                    margin-left: -90px !important;
+                    margin-left: -140px;
                 }
                 .footer__row .getin__touch {
-                    margin-left: 15px !important;
+                    margin-right: 50px;
                 }
             }
             /* ============================================================================= */
